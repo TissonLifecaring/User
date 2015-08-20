@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  GlucoTrack
+
+  Created by Dan on 15-1-23.
+  Copyright (c) 2015年 Tisson. All rights reserved.
+*/
+
+CFBundleDisplayName = "糖無忌";

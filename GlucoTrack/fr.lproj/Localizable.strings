@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  SugarNursing
+
+  Created by Dan on 14-11-5.
+  Copyright (c) 2014年 Tisson. All rights reserved.
+*/
+
+
+/* Left Menu */
+"Advise" = "Advise";
+"Test Result" = "Test Result";
+"Control Effect" = "Control Effect";
+"Recovery Log" = "Recovery Log";
+"My Tips" = "My Tips";
+"Member Center" = "Member Center";
+"Service Center" = "Service Center";
+"Log Out" = "Log Out";

@@ -1,0 +1,347 @@
+/* 
+  Localizable.strings
+  SugarNursing
+
+  Created by Dan on 14-11-5.
+  Copyright (c) 2014年 Tisson. All rights reserved.
+*/
+
+"GlucoTrack" = "糖无忌";
+
+"glucose" = "血糖";
+"hemoglobin" = "糖化血红蛋白";
+
+/* Network */
+"Request Error" = "请求出错";
+
+/* Notification */
+"Accept" = "查看";
+"Reject" = "忽略";
+
+/* Basic */
+"New Version" = "发现新版本";
+"Skip" = "忽略";
+"Go" = "前往";
+
+"No Data" = "没有数据";
+
+/* SSPullToRefreshView */
+"Pull down to refresh…" = "下拉刷新…";
+"Release to refresh…" = "释放刷新…";
+"Loading…" = "加载中…";
+"Last Updated: %@" = "上次更新: %@";
+
+
+/* HUD */
+"Login.." = "登录中..";
+"Logout.." = "注销中..";
+"Error" = "错误";
+"Dismiss" = "取消";
+"Loading..." = "加载中...";
+"Server is busy" = "网络繁忙";
+
+
+/* Left Menu */
+"Advise" = "医生建议";
+"Test Result" = "检测数据";
+"Control Effect" = "控糖成效";
+"Recovery Log" = "康复日志";
+"My Tips" = "我的提醒";
+"Member Center" = "个人中心";
+"Service Center" = "我的客服";
+"Log Out" = "退出登录";
+"Consult Expert" = "医生咨询";
+
+/* Login And Register */
+"Register" = "手机注册";
+"Registering..." = "注册中...";
+"Register succeed" = "注册成功，请登录";
+"Resetting..." = "重置密码中...";
+"Reset" = "重设密码";
+"Reset succeed" = "重设成功，请重新登录";
+"hongkong" = "香港";
+
+
+"notice"="提示";
+"errorphonenumber"="手机号码非法，请重新填写";
+"sure"="确定";
+
+"willsendthecodeto"="我们将发送验证码短信到这个号码";
+"surephonenumber"="确认手机号码";
+"cancel"="取消";
+"Sending code" = "发送验证码";
+"User Exists" = "用户已注册";
+"User No Exists" = "用户不存在";
+"Sending code succeed" = "验证码发送成功";
+
+
+"codesenderrormsg"="验证码发送失败 请稍后重试";
+"codesenderrtitle"="发送失败";
+
+"maxcodemsg"="请求验证码超上限 请稍后重试";
+"maxcode"="超过上限";
+
+"codetoooftenmsg"="客户端请求发送短信验证过于频繁";
+
+"countrychoose"="选择国家或地区";
+"choosegender"="选择性别";
+"female"="女";
+"male"="男";
+"Format is not avaliable" = "格式填写不正确";
+"Date Format is not avaliable" = "不能选择今天之后的日期";
+"Futhure Date Format is not avaliable" = "不能选择今天之前的日期";
+"Password Format is not avaliable" = "密码不能少于6位数或大于16位数";
+"UserName Format is not avaliable" = "用户名不能包含中文字符";
+"UserName cannot be empty" = "用户名不能为空";
+"Not your mobile phone" = "这不是您的手机号码";
+"You are not the current user" = "这不是您的账号";
+"Phone number is not valid" = "手机号码无效";
+"Mobile phone is rebinded" = "手机号码已被绑定，请重新输入";
+"Input the code you received" = "输入获取到验证码";
+"s" = "秒";
+"Code cannot be empty" = "验证码不能为空";
+
+
+
+
+/* Test Tracker */
+"Cancel" = "取消";
+"Select Time Span" = "选择时间跨度";
+
+"Select By Day" = "按日查询";
+"Select By Three Days" = "近三天";
+"Select By Week" = "近一周";
+"Select By Two Weeks" = "近两周";
+"Select By Month" = "近一个月";
+"Select By Two Months" = "近两个月";
+"Select By Three Months" = "近三个月";
+
+
+"Three Days" = "近三天";
+"A Week" = "近一周";
+"Two Weeks" = "近两周";
+"A Month" = "近一个月";
+"Two Months" = "近两个月";
+"Three Months" = "近三个月";
+
+
+"Nearest 7 days" = "近7天";
+"Nearest 14 days" = "近14天";
+"Nearest 30 days" = "近30天";
+"Nearest 60 days" = "近60天";
+
+"Table" = "列表";
+"Line" = "图表";
+"Share" = "分享";
+
+/* Control Effect */
+"Fasting Blood-glucose" = "空腹血糖";
+"Postprandial Blood-glucose After 2 hours" = "餐后2小时血糖";
+"Postprandial Blood-glucose After 1 hours" = "餐后1小时血糖";
+"Glycated hemoglobin" = "糖化血红蛋白";
+"Select Period" = "选择周期";
+"Curative Effect Evaluation" = "综合疗效评估";
+"DetectionTime" = "检测次数";
+"Exceeding Time" = "超标次数";
+"Maximum Value" = "最高值";
+"Minimum Value" = "最低值";
+"Average Value" = "平均值";
+"Cannot get the Evaluation" = "暂时无法获取控糖成效";
+
+"Cannot share without Evaluation" = "控糖成效没有数据，不能分享";
+"point" = "分";
+
+/* Member Center */
+"Verify your account" = "验证账户";
+"Verifying..." = "验证中...";
+"Rebinding..." = "重新绑定中...";
+"Rebind Your Mobile"="重新绑定";
+"To Rebind Your Mobile" = "完成绑定";
+"Rebind succeed" = "绑定成功，请重新登录";
+"Setting"="设置";
+"Personal Information" = "个人信息";
+"Please edit your info" = "请填写你的资料";
+"Please fill your info" = "您的病例资料";
+"To see more" = "点击查看详情";
+"Setting when purchase" = "请购买糖博士由医生设置";
+"Binding your email in our Home" = "请登录官方网站绑定邮箱";
+"You can change only once" = "只能修改一次";
+"No avaliable" = "无";
+"Avaliable" = "开通";
+"years old" = "岁";
+"Saving Data" = "保存数据中";
+"Data Updated" = "数据更新成功";
+"Thumbnail uploading" = "正在上传图片";
+"Upload succeed" = "上传成功";
+"Hospital Name" = "确诊医院的名称";
+"Treatment Condition" = "治疗状况";
+"Treatment Scheme" = "治疗方案";
+"Version" = "版本";
+"Leave your feedback." = "请输入您的反馈信息";
+
+
+/* Recovery Log */
+"Custom" = "自定义";
+"Add" = "新增";
+
+/* Medical History */
+"Medical Record" = "既往病史";
+"Please describe your case" = "请简述你的病例";
+"Medical Case" = "病例资料";
+"Add Medical Record" = "新增病史";
+"Edit Meical Record" = "编辑病史";
+"Images is more than 10" = "病例图片不能超过10张";
+
+
+/* About Us */
+"About Us" = "关于我们";
+
+"Terms of service" = "服务条款";
+
+"FeedBack" = "用户反馈";
+"Sending FeedBack…" = "发送中…";
+"Send Message Succeed" = "发送成功";
+"Send Feedback Succeed" = "反馈成功，感谢您的配合";
+
+/* Add New Recovery Record */
+"others" = "其他设备";
+"detect" = "检测";
+"diet" = "饮食";
+"exercise" = "运动";
+"drug" = "用药";
+"Add New Recovery Record" = "新增日志";
+"Edit Recovery Record" = "编辑日志";
+"calorie" = "大卡";
+"minutes" = "分钟";
+"Input Detect Value" = "输入检测值";
+"breakfast" = "早餐";
+"lunch" = "午餐";
+"dinner" = "晚餐";
+"snack" = "加餐";
+"eat" = "进餐";
+"Not to Add More" = "最多只能添加十条";
+
+
+"Detection Equipment" = "检测设备";
+"Detection Date" = "检测日期";
+"Detection Time" = "检测时间";
+"Select Date" = "选择日期";
+"Select Time" = "选择时间";
+"Add Remark" = "增加备注";
+"Medication Date" = "用药日期";
+"Medication Time" = "用药时间";
+"Diet Date" = "饮食日期";
+"Diet Time" = "饮食时间";
+"Diet Category" = "三餐情况";
+"Select Diet Time" = "选择用餐时间";
+"Exercise Date" = "运动日期";
+"Start Time" = "开始时间";
+"Select Diet Category" = "选择用餐类型";
+"Enter Medication Name" = "请输入药物名称";
+"Enter Food Name" = "请输入食物名称";
+"Enter Exercise Name" = "请输入运动名称";
+"Options" = "可选";
+"Value cannot be empty" = "检测值不能为空";
+"Glucose Value is invalid" = "血糖的值只能在3.5~30";
+"Hemo Value is invalid" = "糖化血红蛋白的值只能在4~30";
+"Medication cannot be empty" = "用药不能为空";
+"Detection Result" = "检测结果";
+"Glucose" = "胰岛素";
+"Hemoglobin" = "降糖药";
+"Antidiabetic" = "降糖药";
+"Others" = "其他";
+"Food Intaked" = "摄入食物";
+"Exercise Data" = "运动数据";
+"Feeling" = "自我感觉";
+"Detection Type" = "检测类型";
+"Detection Value" = "检测值";
+"Unit" = "单位";
+"Medication Name" = "药品名称";
+"Usage" = "用法";
+"Dosage" = "用量";
+"Food Name" = "食物名称";
+"Intaked Value" = "摄入量";
+"Calorie Intaked" = "摄入卡路里";
+"Enter Name" = "输入名称";
+"Enter Time" = "输入时长";
+"Calorie Outtaked" = "消耗卡路里";
+"Sport Name" = "运动项目";
+"Sport Time" = "时长";
+"Intaked" = "摄入";
+"Start Exercise" = "进行运动";
+"Log" = "记录";
+
+
+"g" = "克";
+"kg" = "千克";
+"mg" = "毫克";
+"grain" = "粒";
+"slice" = "片";
+"unit" = "单位";
+"ml" = "毫升";
+"piece" = "支";
+"bottle" = "瓶";
+"Oral_" = "口服";
+"Oral" = "口服";
+"Insulin" = "胰岛素泵";
+"Injection" = "注射";
+
+"Please leave your message." = "请输入您的问题，至少20个字符";
+
+/* Network Error */
+"Fallback Error Failure Reason Format" = "连接网络失败";
+"Cannot find specified host." = "连接网络失败";
+"Cannot connect to specified host." = "连接网络失败";
+"Cannot connect to the internet." = "连接网络失败";
+
+/* User Reminder*/
+"Add Remind" = "增加提醒";
+"Eidt Remind" = "编辑提醒";
+"RecurrenceRule" = "重复周期";
+"Remember to take drugs!" = "请按时服用药品！";
+"Remember to make a detection" = "请使用糖无忌检测血糖";
+"Cancel Reminders" = "取消提醒";
+"Add Reminders" = "增加提醒";
+"GluCare--DrugReminder" = "糖无忌--用药提醒";
+"GluCare--DetectionReminder" = "糖无忌--监控提醒";
+"Sunday" = "周日";
+"Monday" = "周一";
+"Tuesday" = "周二";
+"Wednesday" = "周三";
+"Thursday" = "周四";
+"Friday" = "周五";
+"Saturday" = "周六";
+"Never" = "永不";
+"Not to Add reminder in the same time before" = "同一时间不能添加多条提醒";
+"Not to add more than 10 reminders." = "提醒不能多于10条";
+
+
+
+"three many" = "three many";
+"Dizzy" = "Dizzy";
+"Normal" = "Normal";
+"Cold sweat" = "Cold sweat";
+"Chest congestion" = "Chest congestion";
+"Abdominal pain" = "Abdominal pain";
+"Weak" = "Weak";
+"Pant" = "Pant";
+"Nausea" = "Nausea";
+
+
+
+"17 times" = "17点法";
+"7 times" = "7点法";
+"5 times" = "5点法";
+"FBG" = "空腹高血糖监测";
+"3 Meals" = "三餐影响检测";
+"Trregular" = "无症状检测";
+"Customize" = "自定义";
+
+
+
+"cannot be earlier than last time" = "不能早于前一个提醒时间";
+"cannot be later than next time" = "不能晚于后一个提醒时间";
+
+
+"Please enter medicine name" = "请输入药物名称";
+

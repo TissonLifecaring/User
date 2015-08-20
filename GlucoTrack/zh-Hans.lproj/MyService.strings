@@ -1,0 +1,15 @@
+
+/* Class = "IBUILabel"; text = "Customer Services will reply after getting message from you. Please wait."; ObjectID = "Hon-tx-FwZ"; */
+"Hon-tx-FwZ.text" = "万能的客服将会在收到留言后回复，请耐心等候哦";
+
+/* Class = "IBUINavigationItem"; title = "My Service"; ObjectID = "OWC-oC-gZe"; */
+"OWC-oC-gZe.title" = "我的客服";
+
+/* Class = "IBUIBarButtonItem"; title = "Menu"; ObjectID = "Tgp-1e-1e3"; */
+"Tgp-1e-1e3.title" = "菜单";
+
+/* Class = "IBUILabel"; text = "Message Record"; ObjectID = "dcO-X1-1UQ"; */
+"dcO-X1-1UQ.text" = "留言记录";
+
+/* Class = "IBUIButton"; normalTitle = "Send Message"; ObjectID = "uEQ-Cj-NOE"; */
+"uEQ-Cj-NOE.normalTitle" = "发送留言";

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D136" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Advise" representedClassName="Advise" syncable="YES">
+        <attribute name="adviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="adviceTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exptId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="userid" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserID" inverseName="advise" inverseEntity="UserID" syncable="YES"/>
+    </entity>
+    <entity name="ControlEffect" representedClassName="ControlEffect" syncable="YES">
+        <attribute name="conclusion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conclusionDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conclusionScore" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countDay" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="effectList" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="EffectList" inverseName="controlEffect" inverseEntity="EffectList" syncable="YES"/>
+        <relationship name="userid" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserID" inverseName="controlEffect" inverseEntity="UserID" syncable="YES"/>
+    </entity>
+    <entity name="DetectLog" representedClassName="DetectLog" syncable="YES">
+        <attribute name="dataSource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detectTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="deviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="glucose" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hemoglobinef" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="insertSource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mealFlag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selfSense" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serialNo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="recordLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecordLog" inverseName="detectLog" inverseEntity="RecordLog" syncable="YES"/>
+    </entity>
+    <entity name="DietLog" representedClassName="DietLog" syncable="YES">
+        <attribute name="calorie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eatId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eatPeriod" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eatTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="glucose" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="foodList" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Food" inverseName="dietLog" inverseEntity="Food" syncable="YES"/>
+        <relationship name="recordLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecordLog" inverseName="dietLog" inverseEntity="RecordLog" syncable="YES"/>
+    </entity>
+    <entity name="DrugLog" representedClassName="DrugLog" syncable="YES">
+        <attribute name="glucose" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medicineId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medicinePeriod" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medicineTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="beforeMedicineList" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Medicine" inverseName="beforeDrugLog" inverseEntity="Medicine" syncable="YES"/>
+        <relationship name="medicineList" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Medicine" inverseName="drugLog" inverseEntity="Medicine" syncable="YES"/>
+        <relationship name="nowMedicineList" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Medicine" inverseName="nowDrugLog" inverseEntity="Medicine" syncable="YES"/>
+        <relationship name="recordLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecordLog" inverseName="drugLog" inverseEntity="RecordLog" syncable="YES"/>
+    </entity>
+    <entity name="EffectList" representedClassName="EffectList" syncable="YES">
+        <attribute name="avg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detectCount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="max" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="min" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="overtopCount" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="controlEffect" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ControlEffect" inverseName="effectList" inverseEntity="ControlEffect" spotlightIndexingEnabled="YES" syncable="YES"/>
+    </entity>
+    <entity name="ExerciseLog" representedClassName="ExerciseLog" syncable="YES">
+        <attribute name="calorie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sportId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sportName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sportPeriod" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sportTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="recordLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecordLog" inverseName="exerciseLog" inverseEntity="RecordLog" syncable="YES"/>
+    </entity>
+    <entity name="Food" representedClassName="Food" syncable="YES">
+        <attribute name="calorie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="food" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="dietLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DietLog" inverseName="foodList" inverseEntity="DietLog" syncable="YES"/>
+    </entity>
+    <entity name="MedicalRecord" representedClassName="MedicalRecord" syncable="YES">
+        <attribute name="diagHosp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="diagTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediHistId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediRecord" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="treatMent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="treatPlan" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="recordPhoto" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="RecordPhoto" inverseName="medicalRecord" inverseEntity="RecordPhoto" syncable="YES"/>
+        <relationship name="userid" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserID" inverseName="medicalRecord" inverseEntity="UserID" syncable="YES"/>
+    </entity>
+    <entity name="Medicine" representedClassName="Medicine" syncable="YES">
+        <attribute name="dose" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="drug" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usage" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="beforeDrugLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DrugLog" inverseName="beforeMedicineList" inverseEntity="DrugLog" syncable="YES"/>
+        <relationship name="drugLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DrugLog" inverseName="medicineList" inverseEntity="DrugLog" syncable="YES"/>
+        <relationship name="nowDrugLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DrugLog" inverseName="nowMedicineList" inverseEntity="DrugLog" syncable="YES"/>
+    </entity>
+    <entity name="Message" representedClassName="Message" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contentType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dealTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="direct" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sendTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stat" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="userid" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserID" inverseName="message" inverseEntity="UserID" syncable="YES"/>
+    </entity>
+    <entity name="RecordLog" representedClassName="RecordLog" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="detectLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DetectLog" inverseName="recordLog" inverseEntity="DetectLog" syncable="YES"/>
+        <relationship name="dietLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DietLog" inverseName="recordLog" inverseEntity="DietLog" syncable="YES"/>
+        <relationship name="drugLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DrugLog" inverseName="recordLog" inverseEntity="DrugLog" syncable="YES"/>
+        <relationship name="exerciseLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ExerciseLog" inverseName="recordLog" inverseEntity="ExerciseLog" syncable="YES"/>
+        <relationship name="userid" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserID" inverseName="recordLog" inverseEntity="UserID" syncable="YES"/>
+    </entity>
+    <entity name="RecordPhoto" representedClassName="RecordPhoto" syncable="YES">
+        <attribute name="attachName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attachPath" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="medicalRecord" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MedicalRecord" inverseName="recordPhoto" inverseEntity="MedicalRecord" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="linkManId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="passWord" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sessionId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sessionToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserID" representedClassName="UserID" syncable="YES">
+        <attribute name="linkManId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="advise" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Advise" inverseName="userid" inverseEntity="Advise" syncable="YES"/>
+        <relationship name="controlEffect" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ControlEffect" inverseName="userid" inverseEntity="ControlEffect" syncable="YES"/>
+        <relationship name="medicalRecord" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MedicalRecord" inverseName="userid" inverseEntity="MedicalRecord" syncable="YES"/>
+        <relationship name="message" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Message" inverseName="userid" inverseEntity="Message" syncable="YES"/>
+        <relationship name="recordLog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecordLog" inverseName="userid" inverseEntity="RecordLog" syncable="YES"/>
+        <relationship name="userInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserInfo" inverseName="userid" inverseEntity="UserInfo" syncable="YES"/>
+        <relationship name="userMessages" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserMessages" inverseName="userid" inverseEntity="UserMessages" syncable="YES"/>
+        <relationship name="userSetting" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserSetting" inverseName="userid" inverseEntity="UserSetting" syncable="YES"/>
+    </entity>
+    <entity name="UserInfo" representedClassName="UserInfo" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="allergDrug" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="allergFood" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="birthday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="centerId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="headImageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifyCard" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobilePhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nickName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pickFood" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="realName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="servLevel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telePhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateStaff" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="userid" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserID" inverseName="userInfo" inverseEntity="UserID" syncable="YES"/>
+    </entity>
+    <entity name="UserMessages" representedClassName="UserMessages" syncable="YES">
+        <attribute name="agentMsg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="suggest" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="userid" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserID" inverseName="userMessages" inverseEntity="UserID" syncable="YES"/>
+    </entity>
+    <entity name="UserSetting" representedClassName="UserSetting" syncable="YES">
+        <attribute name="detect" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="diet" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="drug" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="exercise" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="fontSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unit" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="userid" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserID" inverseName="userSetting" inverseEntity="UserID" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Advise" positionX="-9" positionY="144" width="128" height="120"/>
+        <element name="ControlEffect" positionX="-18" positionY="189" width="128" height="133"/>
+        <element name="DetectLog" positionX="-18" positionY="189" width="128" height="240"/>
+        <element name="DietLog" positionX="18" positionY="225" width="128" height="165"/>
+        <element name="DrugLog" positionX="0" positionY="207" width="128" height="180"/>
+        <element name="EffectList" positionX="-9" positionY="198" width="128" height="148"/>
+        <element name="ExerciseLog" positionX="-9" positionY="198" width="128" height="165"/>
+        <element name="Food" positionX="27" positionY="234" width="128" height="133"/>
+        <element name="MedicalRecord" positionX="-54" positionY="135" width="128" height="180"/>
+        <element name="Medicine" positionX="9" positionY="216" width="128" height="30"/>
+        <element name="Message" positionX="0" positionY="153" width="128" height="165"/>
+        <element name="RecordLog" positionX="0" positionY="198" width="128" height="165"/>
+        <element name="RecordPhoto" positionX="-36" positionY="153" width="128" height="90"/>
+        <element name="User" positionX="-9" positionY="144" width="128" height="135"/>
+        <element name="UserID" positionX="-18" positionY="135" width="128" height="193"/>
+        <element name="UserInfo" positionX="-54" positionY="36" width="128" height="360"/>
+        <element name="UserMessages" positionX="-9" positionY="198" width="128" height="88"/>
+        <element name="UserSetting" positionX="9" positionY="162" width="128" height="150"/>
+    </elements>
+</model>

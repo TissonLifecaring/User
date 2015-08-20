@@ -1,0 +1,31 @@
+
+/* Class = "IBUIBarButtonItem"; title = "Menu"; ObjectID = "0Zo-Xz-rUr"; */
+"0Zo-Xz-rUr.title" = "菜單";
+
+/* Class = "IBUITabBarItem"; title = "GHBALC"; ObjectID = "H2o-eR-BHR"; */
+"H2o-eR-BHR.title" = "糖化血紅蛋白";
+
+/* Class = "IBUILabel"; text = "单位"; ObjectID = "Mxo-p3-pRZ"; */
+"Mxo-p3-pRZ.text" = "單位";
+
+/* Class = "IBUITabBarItem"; title = "BloodSugar"; ObjectID = "gXS-Jg-o5b"; */
+"gXS-Jg-o5b.title" = "血糖";
+
+/* Class = "IBUINavigationItem"; title = "TestTracker"; ObjectID = "jWc-XM-JnW"; */
+"jWc-XM-JnW.title" = "檢測數據";
+
+/* Class = "IBUIButton"; normalTitle = "Confirm"; ObjectID = "zhN-Hb-BGj"; */
+"zhN-Hb-BGj.normalTitle" = "確定";
+
+/* Class = "IBUILabel"; text = "type"; ObjectID = "iK2-cd-JMA"; */
+"iK2-cd-JMA.text" = "type";
+
+/* Class = "IBUILabel"; text = "time"; ObjectID = "Nn0-l2-DcL"; */
+"Nn0-l2-DcL.text" = "time";
+
+
+/* Class = "IBUIButton"; normalTitle = "Cancel"; ObjectID = "wDS-gO-K5G"; */
+"wDS-gO-K5G.normalTitle" = "取消";
+
+/* Class = "IBUIButton"; normalTitle = "Cancel"; ObjectID = "dSl-Bq-HPp"; */
+"dSl-Bq-HPp.normalTitle" = "確定";

@@ -1,0 +1,33 @@
+
+/* Class = "IBUIButton"; normalTitle = "三多"; ObjectID = "5iO-q3-HSr"; */
+"5iO-q3-HSr.normalTitle" = "三多";
+
+/* Class = "IBUIButton"; normalTitle = "头晕"; ObjectID = "5tW-Dc-g78"; */
+"5tW-Dc-g78.normalTitle" = "頭暈";
+
+/* Class = "IBUIButton"; normalTitle = "正常"; ObjectID = "6k6-CJ-tZs"; */
+"6k6-CJ-tZs.normalTitle" = "正常";
+
+/* Class = "IBUIButton"; normalTitle = "其他"; ObjectID = "7Xb-5d-qMZ"; */
+"7Xb-5d-qMZ.normalTitle" = "其他";
+
+/* Class = "IBUIButton"; normalTitle = "冷汗"; ObjectID = "GvQ-1a-OgA"; */
+"GvQ-1a-OgA.normalTitle" = "冷汗";
+
+/* Class = "IBUIButton"; normalTitle = "胸闷"; ObjectID = "Ij8-hf-qu1"; */
+"Ij8-hf-qu1.normalTitle" = "胸悶";
+
+/* Class = "IBUIButton"; normalTitle = "腹痛"; ObjectID = "T8p-YM-bEq"; */
+"T8p-YM-bEq.normalTitle" = "腹痛";
+
+/* Class = "IBUIButton"; normalTitle = "乏力"; ObjectID = "XoG-5v-3l7"; */
+"XoG-5v-3l7.normalTitle" = "乏力";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "cTZ-MD-JuK"; */
+"cTZ-MD-JuK.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "气短"; ObjectID = "mgF-FI-8F0"; */
+"mgF-FI-8F0.normalTitle" = "氣短";
+
+/* Class = "IBUIButton"; normalTitle = "恶心"; ObjectID = "uKT-5Y-mhz"; */
+"uKT-5Y-mhz.normalTitle" = "噁心";

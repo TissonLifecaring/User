@@ -1,0 +1,111 @@
+
+/* Class = "IBUITextField"; placeholder = "Input the code you received"; ObjectID = "6eo-Pd-Vtl"; */
+"6eo-Pd-Vtl.placeholder" = "请输入验证码";
+
+/* Class = "IBUIButton"; normalTitle = "Rebind"; ObjectID = "Lt1-pd-ruc"; */
+"Lt1-pd-ruc.normalTitle" = "完成绑定";
+
+/* Class = "IBUIButton"; normalTitle = "Get again2"; ObjectID = "o3V-jN-vBX"; */
+"o3V-jN-vBX.normalTitle" = "重新获取";
+
+/* Class = "IBUITextField"; placeholder = "Only Support For China"; ObjectID = "GOa-rI-zr5"; */
+"GOa-rI-zr5.placeholder" = "输入手机号码";
+
+/* Class = "IBUILabel"; text = "Hongkong"; ObjectID = "EJu-HA-vhD"; */
+"EJu-HA-vhD.text" = "香港";
+
+/* Class = "IBUIButton"; normalTitle = "Male"; ObjectID = "4pg-8D-JiQ"; */
+"4pg-8D-JiQ.normalTitle" = "男";
+
+/* Class = "IBUILabel"; text = "Please enter your phone number"; ObjectID = "ZvW-SW-zmY"; */
+"ZvW-SW-zmY.text" = "请输入您的手机号码";
+
+/* Class = "IBUILabel"; text = "Country/Region"; ObjectID = "Im1-zL-Z6o"; */
+"Im1-zL-Z6o.text" = "国家/地区";
+
+/* Class = "IBUIButton"; normalTitle = "Get Verification"; ObjectID = "IFV-Iw-SjI"; */
+"IFV-Iw-SjI.normalTitle" = "获取验证码";
+
+/* Class = "IBUITextField"; placeholder = "Input the code you received"; ObjectID = "6eo-Pd-Vtl"; */
+"6eo-Pd-Vtl.placeholder" = "输入收到的验证码";
+
+/* Class = "IBUILabel"; text = "Login password"; ObjectID = "7bF-zV-wsi"; */
+"7bF-zV-wsi.text" = "登录密码";
+
+/* Class = "IBUINavigationItem"; title = "Regist"; ObjectID = "7sL-r0-N1D"; */
+"7sL-r0-N1D.title" = "用户注册";
+
+/* Class = "IBUITextField"; placeholder = "username"; ObjectID = "CJ8-AL-bcw"; */
+"kAf-xM-YGR.placeholder" = "手机号/身份证号/邮箱";
+
+/* Class = "IBUIButton"; normalTitle = "Forget?"; ObjectID = "DvX-ci-ntZ"; */
+"anR-RP-sjx.normalTitle" = "忘记密码?";
+
+/* Class = "IBUILabel"; text = "Date of birth"; ObjectID = "E3U-bP-TZN"; */
+"E3U-bP-TZN.text" = "出生日期";
+
+/* Class = "IBUIButton"; normalTitle = "Get Verification Number"; ObjectID = "E4J-fo-e4i"; */
+"E4J-fo-e4i.normalTitle" = "获取验证码";
+
+/* Class = "IBUITextField"; placeholder = "At least 6 numbers"; ObjectID = "GTG-Y1-jl3"; */
+"GTG-Y1-jl3.placeholder" = "至少6位数字";
+
+/* Class = "IBUIButton"; normalTitle = "1959-02-12"; ObjectID = "Hlw-O5-Mo1"; */
+"Hlw-O5-Mo1.normalTitle" = "1989-09-11";
+
+/* Class = "IBUITextField"; placeholder = "Can not modify after setting "; ObjectID = "INx-6B-tHt"; */
+"INx-6B-tHt.placeholder" = "设置后无法修改";
+
+/* Class = "IBUIButton"; normalTitle = "Regist"; ObjectID = "IWV-3g-tBE"; */
+"IWV-3g-tBE.normalTitle" = "用户注册";
+
+/* Class = "IBUILabel"; text = "Phone Number"; ObjectID = "L4e-Ih-AQ9"; */
+"L4e-Ih-AQ9.text" = "手机号码";
+
+/* Class = "IBUILabel"; text = "Verification Code"; ObjectID = "MEE-wL-zK3"; */
+"MEE-wL-zK3.text" = "验证码";
+
+/* Class = "IBUILabel"; text = "Verification Code"; ObjectID = "MoL-Nl-X0q"; */
+"MoL-Nl-X0q.text" = "验证码";
+
+/* Class = "IBUIButton"; normalTitle = "Get again"; ObjectID = "OCg-Rs-f1f"; */
+"OCg-Rs-f1f.normalTitle" = "重新获取";
+
+/* Class = "IBUILabel"; text = "Reset password"; ObjectID = "QyN-hK-NOL"; */
+"QyN-hK-NOL.text" = "重设密码";
+
+/* Class = "IBUITextField"; placeholder = "Input the code you received"; ObjectID = "UGk-6z-NB0"; */
+"UGk-6z-NB0.placeholder" = "输入收到的验证码";
+
+/* Class = "IBUIButton"; normalTitle = "Get again"; ObjectID = "bFf-eh-f31"; */
+"bFf-eh-f31.normalTitle" = "重新获取";
+
+/* Class = "IBUILabel"; text = "Gender"; ObjectID = "ebE-IX-tMt"; */
+"ebE-IX-tMt.text" = "性别";
+
+/* Class = "IBUIButton"; normalTitle = "Female"; ObjectID = "faB-qT-fFr"; */
+"faB-qT-fFr.normalTitle" = "女";
+
+/* Class = "IBUIButton"; normalTitle = "Regist"; ObjectID = "g2g-7z-LEQ"; */
+"lu8-Wj-ijv.normalTitle" = "注册";
+
+/* Class = "IBUILabel"; text = "User Name"; ObjectID = "m48-uM-bvg"; */
+"m48-uM-bvg.text" = "用户名";
+
+/* Class = "IBUITextField"; placeholder = "At least 6 numbers"; ObjectID = "mek-69-q17"; */
+"mek-69-q17.placeholder" = "至少6位数字";
+
+/* Class = "IBUINavigationItem"; title = "Reset"; ObjectID = "qgC-cU-fqv"; */
+"qgC-cU-fqv.title" = "重设密码";
+
+/* Class = "IBUIButton"; normalTitle = "Reset"; ObjectID = "r3A-2n-ynh"; */
+"r3A-2n-ynh.normalTitle" = "重设密码";
+
+/* Class = "IBUIButton"; normalTitle = "Login"; ObjectID = "vep-dG-PZ9"; */
+"WcT-xc-eLj.normalTitle" = "登录";
+
+/* Class = "IBUITextField"; placeholder = "password"; ObjectID = "vzZ-lf-xNE"; */
+"Cug-t8-EkL.placeholder" = "密码";
+
+/* Class = "IBUIButton"; normalTitle = "Male"; ObjectID = "yN6-sG-iSK"; */
+"yN6-sG-iSK.normalTitle" = "男";

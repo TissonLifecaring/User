@@ -1,0 +1,76 @@
+
+/* Class = "IBUIButton"; normalTitle = "取消"; ObjectID = "0Tb-hg-wHv"; */
+"0Tb-hg-wHv.normalTitle" = "取消";
+
+/* Class = "IBUIButton"; normalTitle = "确定"; ObjectID = "1v5-OI-dkS"; */
+"1v5-OI-dkS.normalTitle" = "確定";
+
+/* Class = "IBUILabel"; text = "Blood sugar"; ObjectID = "5FV-ci-suw"; */
+"5FV-ci-suw.text" = "血糖";
+
+/* Class = "IBUIBarButtonItem"; title = "Menu"; ObjectID = "6gj-WS-K9h"; */
+"6gj-WS-K9h.title" = "菜單";
+
+/* Class = "IBUITabBarItem"; title = "检测数据"; ObjectID = "6od-E6-w58"; */
+"6od-E6-w58.title" = "檢測數據";
+
+/* Class = "IBUILabel"; text = "Medications"; ObjectID = "JCz-xZ-N3S"; */
+"JCz-xZ-N3S.text" = "用藥";
+
+/* Class = "IBUITabBarItem"; title = "饮食"; ObjectID = "Jog-1I-Pq7"; */
+"Jog-1I-Pq7.title" = "飲食";
+
+/* Class = "IBUIButton"; normalTitle = "Options"; ObjectID = "MWE-JX-4IZ"; */
+"MWE-JX-4IZ.normalTitle" = "篩選";
+
+/* Class = "IBUILabel"; text = "Diet"; ObjectID = "Oqk-VX-YRe"; */
+"Oqk-VX-YRe.text" = "飲食";
+
+/* Class = "IBUILabel"; text = "Detect"; ObjectID = "PH7-lg-8jv"; */
+"PH7-lg-8jv.text" = "檢測";
+
+/* Class = "IBUIButton"; normalTitle = "Dated"; ObjectID = "SGo-7I-B7G"; */
+"SGo-7I-B7G.normalTitle" = "選擇日期";
+
+/* Class = "IBUITabBarItem"; title = "运动"; ObjectID = "W1r-Lf-nrH"; */
+"W1r-Lf-nrH.title" = "運動";
+
+/* Class = "IBUILabel"; text = "Choose the option to show"; ObjectID = "XFG-WW-v30"; */
+"XFG-WW-v30.text" = "選擇展示的項目";
+
+/* Class = "IBUIButton"; normalTitle = "确定"; ObjectID = "XH3-vT-Ots"; */
+"XH3-vT-Ots.normalTitle" = "確定";
+
+/* Class = "IBUIButton"; normalTitle = "取消"; ObjectID = "fah-4Z-gXC"; */
+"fah-4Z-gXC.normalTitle" = "取消";
+
+/* Class = "IBUINavigationItem"; title = "RecoveryLog"; ObjectID = "gW7-2A-LWW"; */
+"gW7-2A-LWW.title" = "康復日誌";
+
+/* Class = "IBUILabel"; text = "Time"; ObjectID = "mKX-Bh-3jh"; */
+"mKX-Bh-3jh.text" = "Time";
+
+/* Class = "IBUIButton"; normalTitle = "Fresh"; ObjectID = "rwb-I4-3Yk"; */
+"rwb-I4-3Yk.normalTitle" = "清單";
+
+/* Class = "IBUIButton"; normalTitle = "Cancel"; ObjectID = "s6w-k4-iBG"; */
+"s6w-k4-iBG.normalTitle" = "取消";
+
+/* Class = "IBUILabel"; text = "Exercise"; ObjectID = "vfY-yU-RK2"; */
+"vfY-yU-RK2.text" = "運動";
+
+/* Class = "IBUIButton"; normalTitle = "Confirm"; ObjectID = "x0P-TF-eyz"; */
+"x0P-TF-eyz.normalTitle" = "確定";
+
+/* Class = "IBUITabBarItem"; title = "用药"; ObjectID = "yLo-f1-6lN"; */
+"yLo-f1-6lN.title" = "用藥";
+
+/* Class = "IBUIBarButtonItem"; title = "Menu"; ObjectID = "Gqa-VI-OLM"; */
+"Gqa-VI-OLM.title" = "菜單";
+
+/* Class = "IBUINavigationItem"; title = "Coming Soon"; ObjectID = "Yzp-lr-zz6"; */
+"Yzp-lr-zz6.title" = "敬請期待";
+
+/* Class = "IBUIBarButtonItem"; title = "Add"; ObjectID = "Yc7-XW-gXr"; */
+"Yc7-XW-gXr.title" = "新增";
+

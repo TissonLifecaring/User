@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>GlucoTrack.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>GlucoTrackTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3718DAF61A245CDD008B88D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3718DB0E1A245CDE008B88D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3749B5111A09C50D0031D00C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3749B52D1A09C50D0031D00C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

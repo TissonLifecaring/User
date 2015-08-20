@@ -1,0 +1,127 @@
+
+/* Class = "IBUILabel"; text = "点击选择时间"; ObjectID = "1Nb-Qs-c8p"; */
+"1Nb-Qs-c8p.text" = "点击选择时间";
+
+/* Class = "IBUILabel"; text = "药物名称"; ObjectID = "1zF-Y1-4Rp"; */
+"1zF-Y1-4Rp.text" = "药物名称";
+
+/* Class = "IBUITextField"; placeholder = "输入剂量"; ObjectID = "31d-DE-MTR"; */
+"31d-DE-MTR.placeholder" = "输入剂量";
+
+/* Class = "IBUINavigationItem"; title = "Remind Time"; ObjectID = "3TL-bx-XEx"; */
+"3TL-bx-XEx.title" = "编辑时间";
+
+/* Class = "IBUILabel"; text = "点击选择用法"; ObjectID = "3hM-pA-obd"; */
+"3hM-pA-obd.text" = "点击选择用法";
+
+/* Class = "IBUIButton"; normalTitle = "取消"; ObjectID = "5LT-FC-yuY"; */
+"5LT-FC-yuY.normalTitle" = "取消";
+
+/* Class = "IBUIButton"; normalTitle = "取消"; ObjectID = "5pb-Z2-J4z"; */
+"5pb-Z2-J4z.normalTitle" = "取消";
+
+/* Class = "IBUIButton"; normalTitle = "取消"; ObjectID = "Ach-9P-pFY"; */
+"Ach-9P-pFY.normalTitle" = "取消";
+
+/* Class = "IBUIBarButtonItem"; title = "Item"; ObjectID = "BYT-iv-H32"; */
+"BYT-iv-H32.title" = "Item";
+
+/* Class = "IBUINavigationItem"; title = "MyRemind"; ObjectID = "FC7-Ch-iDE"; */
+"FC7-Ch-iDE.title" = "我的提醒";
+
+/* Class = "IBUILabel"; text = " "; ObjectID = "Fuk-jm-FiN"; */
+"Fuk-jm-FiN.text" = " ";
+
+/* Class = "IBUILabel"; text = "开始日期"; ObjectID = "GMx-fv-Amq"; */
+"GMx-fv-Amq.text" = "开始日期";
+
+/* Class = "IBUITabBarItem"; title = "My Remind"; ObjectID = "HYf-QR-fgU"; */
+"HYf-QR-fgU.title" = "用药提醒";
+
+/* Class = "IBUIButton"; normalTitle = "取消"; ObjectID = "PMZ-aY-Z45"; */
+"PMZ-aY-Z45.normalTitle" = "取消";
+
+/* Class = "IBUIButton"; normalTitle = "确定"; ObjectID = "Qoo-1o-O9N"; */
+"Qoo-1o-O9N.normalTitle" = "确定";
+
+/* Class = "IBUILabel"; text = "点击选择次数"; ObjectID = "UaJ-TL-vb9"; */
+"UaJ-TL-vb9.text" = "点击选择次数";
+
+/* Class = "IBUINavigationItem"; title = "Remind Detail"; ObjectID = "Uom-6h-ZRc"; */
+"Uom-6h-ZRc.title" = "Remind Detail";
+
+/* Class = "IBUILabel"; text = "服药时间"; ObjectID = "Zbo-nS-AF7"; */
+"Zbo-nS-AF7.text" = "服药时间";
+
+/* Class = "IBUIButton"; normalTitle = "确定"; ObjectID = "d1s-Ro-DQK"; */
+"d1s-Ro-DQK.normalTitle" = "确定";
+
+/* Class = "IBUILabel"; text = "服用剂量"; ObjectID = "dI9-nP-IKg"; */
+"dI9-nP-IKg.text" = "服用剂量";
+
+/* Class = "IBUILabel"; text = "半夜"; ObjectID = "dYb-rk-apV"; */
+"dYb-rk-apV.text" = "半夜";
+
+/* Class = "IBUIButton"; normalTitle = "确定"; ObjectID = "ejs-jy-MvQ"; */
+"ejs-jy-MvQ.normalTitle" = "确定";
+
+/* Class = "IBUIBarButtonItem"; title = "菜单"; ObjectID = "fIf-6a-hOW"; */
+"fIf-6a-hOW.title" = "菜单";
+
+/* Class = "IBUILabel"; text = "每天次数"; ObjectID = "fuM-GE-CfU"; */
+"fuM-GE-CfU.text" = "每天次数";
+
+/* Class = "IBUILabel"; text = "点击选择时间"; ObjectID = "i8c-LA-qeP"; */
+"i8c-LA-qeP.text" = "点击选择时间";
+
+/* Class = "IBUILabel"; text = "3:00"; ObjectID = "iM1-D0-T7y"; */
+"iM1-D0-T7y.text" = "3:00";
+
+/* Class = "IBUITabBarItem"; title = "Control Plan"; ObjectID = "o9c-fG-0qg"; */
+"o9c-fG-0qg.title" = "监测方案";
+
+/* Class = "IBUILabel"; text = "点击选择药物"; ObjectID = "r2s-A0-4g0"; */
+"r2s-A0-4g0.text" = "点击选择药物";
+
+/* Class = "IBUILabel"; text = "点击选择单位"; ObjectID = "rLf-4b-fm9"; */
+"rLf-4b-fm9.text" = "点击选择单位";
+
+/* Class = "IBUILabel"; text = "服用单位"; ObjectID = "tEj-QW-Bah"; */
+"tEj-QW-Bah.text" = "服用单位";
+
+/* Class = "IBUILabel"; text = "服用方法"; ObjectID = "v70-oF-aE3"; */
+"v70-oF-aE3.text" = "服用方法";
+
+/* Class = "IBUILabel"; text = "点击选择天数"; ObjectID = "vap-Sj-nXX"; */
+"vap-Sj-nXX.text" = "点击选择天数";
+
+/* Class = "IBUIButton"; normalTitle = "确定"; ObjectID = "xfd-Pj-Qzl"; */
+"xfd-Pj-Qzl.normalTitle" = "确定";
+
+/* Class = "IBUILabel"; text = "重复天数"; ObjectID = "z1p-8p-oqJ"; */
+"z1p-8p-oqJ.text" = "重复天数";
+
+/* Class = "IBUILabel"; text = "Saturday"; ObjectID = "0Wc-gL-JRc"; */
+"0Wc-gL-JRc.text" = "周六";
+
+/* Class = "IBUILabel"; text = "Thursday"; ObjectID = "6BK-xw-q4l"; */
+"6BK-xw-q4l.text" = "周四";
+
+/* Class = "IBUILabel"; text = "Tuesday"; ObjectID = "GGo-Zg-Cd5"; */
+"GGo-Zg-Cd5.text" = "周二";
+
+/* Class = "IBUILabel"; text = "Wednesday"; ObjectID = "WO2-rc-83D"; */
+"WO2-rc-83D.text" = "周三";
+
+/* Class = "IBUILabel"; text = "Monday"; ObjectID = "fYz-rE-lmf"; */
+"fYz-rE-lmf.text" = "周一";
+
+/* Class = "IBUILabel"; text = "Sunday"; ObjectID = "ibF-BE-tC0"; */
+"ibF-BE-tC0.text" = "周日";
+
+/* Class = "IBUILabel"; text = "Friday"; ObjectID = "wAM-e4-qqA"; */
+"wAM-e4-qqA.text" = "周五";
+
+
+
+

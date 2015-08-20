@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>格列本脲</string>
+	<string>格列齐特</string>
+	<string>格列吡嗪</string>
+	<string>格列喹酮</string>
+	<string>格列美脲</string>
+	<string>瑞格列奈</string>
+	<string>二甲双胍</string>
+	<string>阿卡波糖</string>
+	<string>罗格列酮</string>
+	<string>吡格列酮</string>
+	<string>自定義</string>
+</array>
+</plist>

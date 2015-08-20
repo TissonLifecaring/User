@@ -1,0 +1,338 @@
+/* 
+  Localizable.strings
+  SugarNursing
+
+  Created by Dan on 14-11-5.
+  Copyright (c) 2014年 Tisson. All rights reserved.
+*/
+
+"GlucoTrack" = "GlucoTrack";
+
+"glucose" = "Glucose";
+"hemoglobin" = "Hemoglobin";
+
+/* Network */
+"Request Error" = "Request Error";
+
+/* Notification */
+"Accept" = "Accept";
+"Reject" = "Reject";
+
+/* Basic */
+"New Version" = "New Version";
+"Skip" = "Skip";
+"Go" = "Go";
+
+"No Data" = "No Data";
+
+/* SSPullToRefreshView */
+"Pull down to refresh…" = "Pull down to refresh…";
+"Release to refresh…" = "Release to refresh…";
+"Loading…" = "Loading…";
+"Last Updated: %@" = "Last Updated: %@";
+
+/* HUD */
+"Login.." = "Login..";
+"Logout.." = "Logout..";
+"Error" = "Error";
+"Dismiss" = "Dismiss";
+"Loading..." = "Loading...";
+"Server is busy" = "Server is busy";
+
+/* Left Menu */
+"Advise" = "Medical Advice";
+"Test Result" = "Test Result";
+"Control Effect" = "Control Effect";
+"Recovery Log" = "Recovery Log";
+"My Tips" = "My Tips";
+"Member Center" = "Member Center";
+"Service Center" = "Service Center";
+"Log Out" = "Log Out";
+"Consult Expert" = "Consult Expert";
+
+/* Login And Register*/
+"Register" = "Register";
+"Registering..." = "Registering...";
+"Register succeed" = "Register succeed";
+"Resetting..." = "Resetting...";
+"Reset succeed" = "Reset succeed";
+"Reset" = "Reset";
+"hongkong" = "HongKong";
+
+"notice"="Notice";
+"errorphonenumber"="Phone number is invalid";
+"sure"="Sure";
+
+"willsendthecodeto"="We will send the code to the phone";
+"surephonenumber"="Make sure the number";
+"cancel"="Cancel";
+"Sending code" = "Sending code";
+"User Exists" = "User Exists";
+"User No Exists" = "User No Exists";
+"Sending code succeed" = "Sending code succeed";
+
+
+"codesenderrormsg"="The code send fail try again later";
+"codesenderrtitle"="Send Fail";
+
+"maxcodemsg"="The code is up the max limit";
+"maxcode"="Up max limit";
+
+"codetoooftenmsg"="The request is too often";
+
+"countrychoose"="Choose the country";
+"choosegender"="Choose gender";
+"female"="Female";
+"male"="Male";
+"Format is not avaliable" = "Format is not avaliable";
+"Date Format is not avaliable" = "Date Format is not avaliable";
+"Futhure Date Format is not avaliable" = "Futhure Date Format is not avaliable";
+"Password Format is not avaliable" = "Password Format is not avaliable";
+"UserName Format is not avaliable" = "UserName Format is not avaliable";
+"UserName cannot be empty" = "UserName cannot be empty";
+"Not your mobile phone" = "Not your mobile phone";
+"You are not the current user" = "You are not the current user";
+"Phone number is not valid" = "Phone number is not valid";
+"Mobile phone is rebinded" = "Mobile phone is rebinded";
+"Input the code you received" = "Input the code you received";
+"s" = "s";
+"Code cannot be empty" = "Code cannot be empty";
+
+
+
+/* Test Tracker */
+"Cancel" = "Cancel";
+"Select Time Span" = "Select Time Span";
+
+"Select By Day" = "Search daily";
+"Select By Week" = "Nearly a week";
+"Select By Month" = "Nearly a month";
+"Select By Three Days" = "Nearly three days";
+"Select By Two Weeks" = "Nearly two weeks";
+"Select By Two Months" = "Nearly two months";
+"Select By Three Months" = "Nearly three months";
+
+"A Day" = "A Day";
+"Three Days" = "Three Days";
+"A Week" = "A Week";
+"Two Weeks" = "Two Weeks";
+"A Month" = "A Month";
+"Two Months" = "Two Months";
+"Three Months" = "Three Months";
+
+
+"Nearest 7 days" = "Nearest 7 days";
+"Nearest 14 days" = "Nearest 14 days";
+"Nearest 30 days" = "Nearest 30 days";
+"Nearest 60 days" = "Nearest 60 days";
+
+"Table" = "Table";
+"Line" = "Line";
+"Share" = "Share";
+
+/* Control Effect */
+"Fasting Blood-glucose" = "FGB";
+"Postprandial Blood-glucose After 2 hours" = "2 hours postprandial blood glucose";
+"Postprandial Blood-glucose After 1 hours" = "1 hour postprandial blood glucose";
+"Glycated hemoglobin" = "Glycated hemoglobin";
+"Select Period" = "Select Period";
+"Curative Effect Evaluation" = "Efficiacy";
+"DetectionTime" = "DetTime";
+"Exceeding Time" = "Beyond";
+"Maximum Value" = "MaxValue";
+"Minimum Value" = "MinValue";
+"Average Value" = "Mean";
+"Cannot get the Evaluation" = "Cannot acquire glycemic-control effect";
+
+"Cannot share without Evaluation" = "Cannot share without Evaluation";
+"point" = "point";
+
+
+/* Member Center */
+"Verify your account" = "Verify your account";
+"Verifying..." = "Verifying...";
+"Rebinding..." = "Rebinding...";
+"Rebind Your Mobile"="Rebind Your Mobile";
+"Rebind succeed" = "Rebind succeed";
+"Setting"="Setting";
+"Personal Information" = "Personal Information";
+"Please edit your info" = "Please Fill in Your Information.";
+"Please fill your info" = "Please Fill in Your EMR details";
+"To see more" = "Click here to view details";
+"Setting when purchase" = "Setting when purchase";
+"Binding your email in our Home" = "Binding your email in ourher";
+"You can change only once" = "You can change only once";
+"No avaliable" = "No Avaliable";
+"Avaliable" = "Activate";
+"years old" = "years old";
+"Saving Data" = "Saving Data";
+"Data Updated" = "Data Updated Successful";
+"Thumbnail uploading" = "Thumbnail uploading";
+"Upload succeed" = "Upload succeed";
+"Hospital Name" = "Hospital of Diagnosis";
+"Treatment Condition" = "Treatment Condition";
+"Treatment Scheme" = "Treatment Scheme";
+"Version" = "Version";
+"Leave your feedback." = "Leave your feedback.";
+
+
+/* Recovery Log */
+"Custom" = "Customize";
+"Add" = "Add";
+
+/* Medical History */
+"Medical Record" = "Medical Record";
+"Please describe your case" = "Please describe your case";
+"Medical Case" = "Medical Case";
+"Add Medical Record" = "Add Medical Record";
+"Edit Meical Record" = "Edit Meical Record";
+"Images is more than 10" = "Images is more than 10";
+
+/* About Us */
+"About Us" = "About Us";
+
+"Terms of service" = "Terms of service";
+
+"FeedBack" = "FeedBack";
+"Sending FeedBack…" = "Sending FeedBack…";
+"Send Message Succeed" = "Send Message Succeed";
+
+/* Add New Recovery Record */
+"others" = "others";
+"detect" = "Detect";
+"diet" = "Diet";
+"exercise" = "Exercise";
+"drug" = "Drug";
+"Add New Recovery Record" = "Add New Recovery Record";
+"Edit Recovery Record" = "Edit Recovery Record";
+"calorie" = "calorie";
+"minutes" = "minutes";
+"Input Detect Value" = "Enter Value";
+"breakfast" = "breakfast";
+"lunch" = "lunch";
+"dinner" = "supper";
+"snack" = "snack";
+"eat" = "eat";
+"Not to Add More" = "Maximum of 10";
+
+
+"Detection Equipment" = "Device";
+"Detection Date" = "Detection Date";
+"Detection Time" = "Detection Time";
+"Select Date" = "Select Date";
+"Select Time" = "Select Time";
+"Add Remark" = "Add Note";
+"Medication Date" = "Medication Date";
+"Medication Time" = "Medication Time";
+"Diet Date" = "Diet Date";
+"Diet Time" = "Diet Time";
+"Diet Category" = "3 meals status";
+"Exercise Date" = "Sports Date";
+"Start Time" = "Start Time";
+"Select Diet Category" = "Select";
+"Enter Medication Name" = "Enter Medication Name";
+"Enter Food Name" = "Enter Food Name";
+"Enter Exercise Name" = "Enter Exercise Name";
+"Options" = "Optional";
+"Value cannot be empty" = "Measurement value cannot be blank";
+"Glucose Value is invalid" = "Blood glucose level limits: 3.5~30";
+"Hemo Value is invalid" = "HbA1c limits:4~30";
+"Medication cannot be empty" = "Medications cannot be blank";
+"Detection Result" = "Detection Result";
+"Glucose" = "Glucose";
+"Hemoglobin" = "Hemoglobin";
+"Antidiabetic" = "Antidiabetic";
+"Others" = "Other";
+"Food Intaked" = "Intake of food";
+"Exercise Data" = "Sports Data";
+"Feeling" = "Feeling";
+"Detection Type" = "Type";
+"Detection Value" = "Value";
+"Unit" = "Unit";
+"Medication Name" = "Name";
+"Usage" = "Usage";
+"Dosage" = "Dosage";
+"Food Name" = "Name";
+"Intaked Value" = "Intake";
+"Calorie Intaked" = "Consumed";
+"Enter Name" = "Enter Name";
+"Enter Time" = "Duration";
+"Calorie Outtaked" = "Consumed";
+"Sport Name" = "Sport Name";
+"Sport Time" = "Duration";
+"Intaked" = "Instaked";
+"Start Exercise" = "Doing sports";
+"Log" = "Record";
+
+
+"g" = "g";
+"kg" = "kg";
+"mg" = "mg";
+"grain" = "grain";
+"slice" = "slice";
+"unit" = "unit";
+"ml" = "ml";
+"piece" = "piece";
+"bottle" = "bottle";
+"Oral_" = "Oral";
+"Oral" = "Oral";
+"Insulin" = "Insulin";
+"Injection" = "Injection";
+
+"Please leave your message." = "Please enter your question";
+
+/* Network Error */
+"Fallback Error Failure Reason Format" = "Fallback Error Failure Reason Format";
+"Cannot find specified host." = "Cannot find specified host.";
+"Cannot connect to specified host." = "Cannot connect to specified host.";
+"Cannot connect to the internet." = "Cannot connect to the internet.";
+
+/* User Reminder*/
+"Add Remind" = "Add Remind";
+"Eidt Remind" = "Editing remind";
+"RecurrenceRule" = "Repeat Period";
+"Remember to take drugs!" = "Remember to take drugs!";
+"Remember to make a detection" = "Please use Gluco Track to monitor blood glucose!";
+"Cancel Reminders" = "Cancel remind";
+"Add Reminders" = "Add Reminders";
+"GluCare--DrugReminder" = "Gluco Track--Medication Remind";
+"GluCare--DetectionReminder" = "Gluco Track--Monitoring Remind";
+"Sunday" = "Sunday";
+"Monday" = "Monday";
+"Tuesday" = "Tuesday";
+"Wednesday" = "Wednesday";
+"Thursday" = "Thursday";
+"Friday" = "Friday";
+"Saturday" = "Saturday";
+"Never" = "Never";
+"Not to Add reminder in the same time before" = "Not to Add reminder in the same time before";
+"Not to add more than 10 reminders." = "Remind no more than 10";
+
+"three many" = "three many";
+"Dizzy" = "Dizzy";
+"Normal" = "Normal";
+"Cold sweat" = "Cold sweat";
+"Chest congestion" = "Chest congestion";
+"Abdominal pain" = "Abdominal pain";
+"Weak" = "Weak";
+"Pant" = "Pant";
+"Nausea" = "Nausea";
+
+
+
+"17 times" = "17 times";
+"7 times" = "7 times";
+"5 times" = "5 times";
+"FBG" = "FBG";
+"3 Meals" = "3 Meals";
+"Trregular" = "Trregular";
+"Customize" = "Customize";
+
+"cannot be earlier than last time" = "cannot be earlier than last time";
+"cannot be later than next time" = "cannot be later than next time";
+
+
+"Please enter medicine name" = "Please enter medicine name";
+
+
+

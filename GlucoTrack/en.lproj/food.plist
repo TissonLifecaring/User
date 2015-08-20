@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Staple</key>
+		<array>
+			<string>米饭</string>
+			<string>玉米</string>
+			<string>馒头</string>
+			<string>燕麦片</string>
+			<string>面包</string>
+			<string>红薯</string>
+			<string>小米粥</string>
+			<string>马铃薯</string>
+			<string>包子</string>
+			<string>面条</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Fruit and homonemeae</key>
+		<array>
+			<string>苹果</string>
+			<string>香蕉</string>
+			<string>西红柿</string>
+			<string>黄瓜</string>
+			<string>西瓜</string>
+			<string>桃子</string>
+			<string>橙子</string>
+			<string>枣</string>
+			<string>梨</string>
+			<string>西洋菜</string>
+			<string>生菜</string>
+			<string>大白菜</string>
+			<string>芥菜</string>
+			<string>葱</string>
+			<string>菠菜</string>
+			<string>香菜</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Eggs,meat</key>
+		<array>
+			<string>鸡蛋</string>
+			<string>鸡蛋白</string>
+			<string>鸡蛋黄</string>
+			<string>咸蛋</string>
+			<string>瘦猪肉</string>
+			<string>牛肉</string>
+			<string>鸡肉</string>
+			<string>鱼</string>
+			<string>排骨</string>
+			<string>羊肉</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Dairy product</key>
+		<array>
+			<string>纯牛奶</string>
+			<string>酸奶</string>
+			<string>脱脂牛奶</string>
+			<string>奶酪</string>
+			<string>奶片</string>
+			<string>全脂牛奶粉</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Nuts,bean product</key>
+		<array>
+			<string>豆浆</string>
+			<string>豆腐</string>
+			<string>花生</string>
+			<string>豆腐干</string>
+			<string>栗子</string>
+			<string>杏仁</string>
+			<string>大豆</string>
+			<string>开心果</string>
+			<string>芝麻</string>
+			<string>腰果</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Other</key>
+		<array>
+			<string>Customize</string>
+		</array>
+	</dict>
+</array>
+</plist>

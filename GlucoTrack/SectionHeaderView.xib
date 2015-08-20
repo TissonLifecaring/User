@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MedicalHistoryViewController"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="EpI-RO-4mH" customClass="SectionHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DU6-Ot-t41">
+                    <rect key="frame" x="10" y="5" width="580" height="38"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngW-uT-Iuc">
+                            <rect key="frame" x="539" y="8" width="21" height="22"/>
+                            <state key="normal" image="UpArrow">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="DownArrow"/>
+                            <connections>
+                                <action selector="toggleOpen:" destination="EpI-RO-4mH" eventType="touchUpInside" id="ChU-Mu-un4"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhg-wy-asU">
+                            <rect key="frame" x="66" y="-1" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="0Lz-Bo-BhQ"/>
+                                <constraint firstAttribute="height" constant="40" id="6Rd-lI-q1R"/>
+                            </constraints>
+                            <state key="normal" image="Edit">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="toggleEdit:" destination="EpI-RO-4mH" eventType="touchUpInside" id="Jwb-hK-pH5"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pog-BT-mKE" customClass="CustomLabel">
+                            <rect key="frame" x="20" y="10" width="36" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1019607843" green="0.73725490199999999" blue="0.61176470589999998" alpha="1" colorSpace="deviceRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="centerY" secondItem="ngW-uT-Iuc" secondAttribute="centerY" id="4dO-KP-Aez"/>
+                        <constraint firstAttribute="centerY" secondItem="dhg-wy-asU" secondAttribute="centerY" id="Djk-gU-nkZ"/>
+                        <constraint firstItem="dhg-wy-asU" firstAttribute="leading" secondItem="pog-BT-mKE" secondAttribute="trailing" constant="10" id="abb-C4-S8W"/>
+                        <constraint firstAttribute="trailing" secondItem="ngW-uT-Iuc" secondAttribute="trailing" constant="20" id="bXn-5C-6tD"/>
+                        <constraint firstItem="pog-BT-mKE" firstAttribute="leading" secondItem="DU6-Ot-t41" secondAttribute="leading" constant="20" id="eOG-Dq-4Qe"/>
+                        <constraint firstAttribute="centerY" secondItem="pog-BT-mKE" secondAttribute="centerY" id="sF6-mS-F7n"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="DU6-Ot-t41" firstAttribute="leading" secondItem="EpI-RO-4mH" secondAttribute="leading" constant="10" id="1K2-n4-uLF"/>
+                <constraint firstItem="DU6-Ot-t41" firstAttribute="top" secondItem="EpI-RO-4mH" secondAttribute="top" multiplier="5" constant="5" id="LF7-UD-mDb"/>
+                <constraint firstAttribute="bottom" secondItem="DU6-Ot-t41" secondAttribute="bottom" constant="5" id="SsY-mn-nCt"/>
+                <constraint firstAttribute="trailing" secondItem="DU6-Ot-t41" secondAttribute="trailing" constant="10" id="eUO-Tm-t6e"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="arrowBtn" destination="ngW-uT-Iuc" id="nfg-RA-3Dn"/>
+                <outlet property="editBtn" destination="dhg-wy-asU" id="JD0-bM-hXI"/>
+                <outlet property="titleLabel" destination="pog-BT-mKE" id="Ejs-oH-biX"/>
+            </connections>
+            <point key="canvasLocation" x="359" y="411"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="DownArrow" width="21" height="17"/>
+        <image name="Edit" width="21" height="17"/>
+        <image name="UpArrow" width="21" height="17"/>
+    </resources>
+</document>

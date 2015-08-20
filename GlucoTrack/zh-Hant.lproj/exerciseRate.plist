@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>散步</key>
+	<string>2.78</string>
+	<key>爬山</key>
+	<string>7.82</string>
+	<key>騎自行車</key>
+	<string>7.82</string>
+	<key>游泳</key>
+	<string>5.58</string>
+	<key>羽毛球</key>
+	<string>3.92</string>
+	<key>健美操</key>
+	<string>3.35</string>
+	<key>乒乓球</key>
+	<string>3.35</string>
+	<key>籃球</key>
+	<string>5.58</string>
+	<key>網球</key>
+	<string>6.7</string>
+	<key>太極</key>
+	<string>3.35</string>
+	<key>慢跑</key>
+	<string>6.7</string>
+	<key>跑步</key>
+	<string>11.73</string>
+	<key>蝶泳</key>
+	<string>11.17</string>
+	<key>打台球</key>
+	<string>1.68</string>
+	<key>滑冰</key>
+	<string>12.28</string>
+</dict>
+</plist>

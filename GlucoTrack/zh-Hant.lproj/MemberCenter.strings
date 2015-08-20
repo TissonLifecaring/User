@@ -1,0 +1,176 @@
+
+/* Class = "IBUIButton"; normalTitle = "Version Update"; ObjectID = "5ng-tx-pNg"; */
+"5ng-tx-pNg.normalTitle" = "檢測更新";
+/* Class = "IBUITextField"; placeholder = "Input your new mobile number"; ObjectID = "1pP-vd-R0x"; */
+"1pP-vd-R0x.placeholder" = "請輸入您的手機號/身份證號/郵箱";
+
+/* Class = "IBUILabel"; text = "ID Number"; ObjectID = "2dg-ka-HVM"; */
+"2dg-ka-HVM.text" = "身份證";
+
+/* Class = "IBUILabel"; text = "Reset Password"; ObjectID = "2mr-vS-BVQ"; */
+"2mr-vS-BVQ.text" = "修改密碼";
+
+/* Class = "IBUILabel"; text = "疾病名称"; ObjectID = "48l-fo-qIf"; */
+"48l-fo-qIf.text" = "疾病名稱";
+
+/* Class = "IBUILabel"; text = "mmol/L"; ObjectID = "4ig-QG-5th"; */
+"4ig-QG-5th.text" = "mmol/L";
+
+/* Class = "IBUILabel"; text = "Gender"; ObjectID = "6Jy-J5-N5v"; */
+"6Jy-J5-N5v.text" = "性別";
+
+/* Class = "IBUILabel"; text = "治疗方案"; ObjectID = "7QS-b4-Xoc"; */
+"7QS-b4-Xoc.text" = "治療方案";
+
+/* Class = "IBUITextField"; placeholder = "Your phone number"; ObjectID = "AEb-w2-J9N"; */
+"AEb-w2-J9N.placeholder" = "您的手機號碼";
+
+/* Class = "IBUILabel"; text = "Date of birth"; ObjectID = "B9t-nr-jgC"; */
+"B9t-nr-jgC.text" = "出生日期";
+
+/* Class = "IBUILabel"; text = "病例资料"; ObjectID = "BMO-7r-gIK"; */
+"BMO-7r-gIK.text" = "病例資料";
+
+/* Class = "IBUILabel"; text = "确诊日期"; ObjectID = "Buz-nM-YJh"; */
+"Buz-nM-YJh.text" = "確診日期";
+
+/* Class = "IBUIButton"; normalTitle = "确定"; ObjectID = "DcO-Ih-u3C"; */
+"DcO-Ih-u3C.normalTitle" = "確定";
+
+/* Class = "IBUILabel"; text = "Terms of Service"; ObjectID = "E5z-8D-OMO"; */
+"E5z-8D-OMO.text" = "服務條款";
+
+/* Class = "IBUILabel"; text = "确诊疾病的名称"; ObjectID = "Fbb-s0-1iv"; */
+"Fbb-s0-1iv.text" = "確診疾病的名稱";
+
+/* Class = "IBUITextField"; placeholder = "Input your user name"; ObjectID = "FqJ-iW-sLH"; */
+"FqJ-iW-sLH.placeholder" = "輸入您的用戶名";
+
+/* Class = "IBUILabel"; text = "治疗状况"; ObjectID = "GKS-nb-NKl"; */
+"GKS-nb-NKl.text" = "治療狀況";
+
+/* Class = "IBUIButton"; normalTitle = "Rebind"; ObjectID = "GNG-w9-7Zy"; */
+"GNG-w9-7Zy.normalTitle" = "重新綁定手機號碼";
+
+/* Class = "IBUIButton"; normalTitle = "取消"; ObjectID = "GSX-we-HH6"; */
+"GSX-we-HH6.normalTitle" = "取消";
+
+/* Class = "IBUILabel"; text = "Setting"; ObjectID = "HLV-Nc-5rF"; */
+"HLV-Nc-5rF.text" = "基本設置";
+
+/* Class = "IBUILabel"; text = "Glucose Units"; ObjectID = "HQ3-Mp-TT7"; */
+"HQ3-Mp-TT7.text" = "血糖單位";
+
+/* Class = "IBUITextField"; placeholder = "确诊医院的名称"; ObjectID = "Hic-c2-1KS"; */
+"Hic-c2-1KS.placeholder" = "確診醫院的名稱";
+
+/* Class = "IBUILabel"; text = "Log out"; ObjectID = "Kpw-hd-CHy"; */
+"Kpw-hd-CHy.text" = "退出登陸";
+
+/* Class = "IBUILabel"; text = "治疗状况"; ObjectID = "M0I-Kv-hym"; */
+"M0I-Kv-hym.text" = "治療狀況";
+
+/* Class = "IBUITextField"; placeholder = "Input your password"; ObjectID = "NDO-9z-G4R"; */
+"NDO-9z-G4R.placeholder" = "輸入您的密碼";
+
+/* Class = "IBUIButton"; normalTitle = "取消"; ObjectID = "OPT-ru-ry9"; */
+"OPT-ru-ry9.normalTitle" = "取消";
+
+/* Class = "IBUILabel"; text = "E-mail address"; ObjectID = "Oge-ZY-UDd"; */
+"Oge-ZY-UDd.text" = "郵箱地址";
+
+/* Class = "IBUILabel"; text = "Input your password to rebind mobile"; ObjectID = "Pye-Dt-Qq7"; */
+"Pye-Dt-Qq7.text" = "輸入密碼重置手機號碼";
+
+/* Class = "IBUITextField"; placeholder = "Choose gender"; ObjectID = "TP8-al-I7v"; */
+"TP8-al-I7v.placeholder" = "選擇性別";
+
+/* Class = "IBUILabel"; text = "疾病名称"; ObjectID = "Upj-Lw-XSH"; */
+"Upj-Lw-XSH.text" = "疾病名稱";
+
+/* Class = "IBUILabel"; text = "UserName"; ObjectID = "VfZ-x5-we0"; */
+"VfZ-x5-we0.text" = "用戶名";
+
+/* Class = "IBUILabel"; text = "Case introduction"; ObjectID = "Vjy-Jn-AZA"; */
+"Vjy-Jn-AZA.text" = "病例簡訴";
+
+/* Class = "IBUILabel"; text = "Images"; ObjectID = "W5p-Fy-3DF"; */
+"W5p-Fy-3DF.text" = "病例圖片";
+
+/* Class = "IBUILabel"; text = "Feed Back"; ObjectID = "WLV-kz-kdx"; */
+"WLV-kz-kdx.text" = "用戶反饋";
+
+/* Class = "IBUILabel"; text = "确诊日期"; ObjectID = "XPe-21-6P1"; */
+"XPe-21-6P1.text" = "確診日期";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "Z90-kq-phE"; */
+"Z90-kq-phE.text" = "Label";
+
+/* Class = "IBUILabel"; text = "治疗方案"; ObjectID = "a14-UV-ega"; */
+"a14-UV-ega.text" = "治療方案";
+
+/* Class = "IBUILabel"; text = "Rebinding Phone"; ObjectID = "cnG-pa-oZS"; */
+"cnG-pa-oZS.text" = "重新綁定手機號碼";
+
+/* Class = "IBUITextField"; placeholder = "Choose Date"; ObjectID = "dFt-NJ-sot"; */
+"dFt-NJ-sot.placeholder" = "選擇日期";
+
+/* Class = "IBUITextField"; text = "1979-02-08"; ObjectID = "dFt-NJ-sot"; */
+"dFt-NJ-sot.text" = "";
+
+/* Class = "IBUITextField"; placeholder = "选择日期"; ObjectID = "dPH-x5-atl"; */
+"dPH-x5-atl.placeholder" = "選擇日期";
+
+/* Class = "IBUITextField"; placeholder = "治疗状况"; ObjectID = "fzR-wD-I1n"; */
+"fzR-wD-I1n.placeholder" = "治療狀況";
+
+/* Class = "IBUITextField"; placeholder = "确诊疾病的名称"; ObjectID = "gLT-dX-EMK"; */
+"gLT-dX-EMK.placeholder" = "確診疾病的名稱";
+
+/* Class = "IBUITextField"; placeholder = "Input your mobile number"; ObjectID = "gMW-wr-vs9"; */
+"gMW-wr-vs9.placeholder" = "請輸入您的手機號/身份證號/郵箱";
+
+/* Class = "IBUILabel"; text = "确诊的医院"; ObjectID = "hCf-cT-fmw"; */
+"hCf-cT-fmw.text" = "確診的醫院";
+
+/* Class = "IBUIBarButtonItem"; title = "Menu"; ObjectID = "hak-Ag-qJa"; */
+"hak-Ag-qJa.title" = "菜單";
+
+/* Class = "IBUIButton"; normalTitle = "Add Images"; ObjectID = "jxr-7v-bSH"; */
+"jxr-7v-bSH.normalTitle" = "新增圖片";
+
+/* Class = "IBUINavigationItem"; title = "Member Center"; ObjectID = "kgk-hY-DXB"; */
+"kgk-hY-DXB.title" = "個人中心";
+
+/* Class = "IBUILabel"; text = "Medical History"; ObjectID = "lOz-gC-2X6"; */
+"lOz-gC-2X6.text" = "既往病史";
+
+/* Class = "IBUILabel"; text = "About us"; ObjectID = "lmc-Ob-PiE"; */
+"lmc-Ob-PiE.text" = "關於我們";
+
+/* Class = "IBUILabel"; text = "确诊医院"; ObjectID = "mwh-Ou-H9t"; */
+"mwh-Ou-H9t.text" = "確診醫院";
+
+/* Class = "IBUIButton"; normalTitle = "Verified"; ObjectID = "oeD-EC-PP6"; */
+"oeD-EC-PP6.normalTitle" = "驗證";
+
+/* Class = "IBUIButton"; normalTitle = "确定"; ObjectID = "pyd-O4-pMR"; */
+"pyd-O4-pMR.normalTitle" = "確定";
+
+/* Class = "IBUILabel"; text = "Rebind your mobile number"; ObjectID = "rZe-50-hx5"; */
+"rZe-50-hx5.text" = "輸入你要綁定的新手機號碼";
+
+/* Class = "IBUILabel"; text = "Thumbnail"; ObjectID = "rzz-N6-W8e"; */
+"rzz-N6-W8e.text" = "頭像";
+
+/* Class = "IBUILabel"; text = "Phone Number"; ObjectID = "srU-Qm-nes"; */
+"srU-Qm-nes.text" = "手機號碼";
+
+/* Class = "IBUIButton"; normalTitle = "提交反馈"; ObjectID = "vJs-H3-IhK"; */
+"vJs-H3-IhK.normalTitle" = "提交反饋";
+
+/* Class = "IBUILabel"; text = "COS"; ObjectID = "xQD-LZ-GrA"; */
+"xQD-LZ-GrA.text" = "服務";
+
+/* Class = "IBUILabel"; text = "确诊医院"; ObjectID = "yzS-48-6VF"; */
+"yzS-48-6VF.text" = "確診醫院";

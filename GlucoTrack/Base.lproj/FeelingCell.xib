@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6249" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="BKT-Tl-J61" customClass="FeelingCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BKT-Tl-J61" id="cmm-cr-nSk">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTZ-MD-JuK" customClass="CustomLabel">
+                        <rect key="frame" x="20" y="11" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rza-7G-Dzu">
+                        <rect key="frame" x="72" y="0.0" width="248" height="43"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DtF-29-Fzk">
+                                <rect key="frame" x="0.0" y="0.0" width="550" height="43"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6k6-CJ-tZs">
+                                        <rect key="frame" x="10" y="5" width="44" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <inset key="contentEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                                        <state key="normal" title="正常">
+                                            <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="toggleBtn:" destination="BKT-Tl-J61" eventType="touchUpInside" id="O9T-Vk-M6y"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5iO-q3-HSr">
+                                        <rect key="frame" x="64" y="5" width="44" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <inset key="contentEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                                        <state key="normal" title="三多">
+                                            <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="toggleBtn:" destination="BKT-Tl-J61" eventType="touchUpInside" id="Wg1-Aa-HOC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XoG-5v-3l7">
+                                        <rect key="frame" x="118" y="5" width="44" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <inset key="contentEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                                        <state key="normal" title="乏力">
+                                            <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="toggleBtn:" destination="BKT-Tl-J61" eventType="touchUpInside" id="Nct-J4-Isl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8p-YM-bEq">
+                                        <rect key="frame" x="172" y="5" width="44" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <inset key="contentEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                                        <state key="normal" title="腹痛">
+                                            <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="toggleBtn:" destination="BKT-Tl-J61" eventType="touchUpInside" id="bRL-WQ-CgI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgF-FI-8F0">
+                                        <rect key="frame" x="226" y="5" width="44" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <inset key="contentEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                                        <state key="normal" title="气短">
+                                            <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="toggleBtn:" destination="BKT-Tl-J61" eventType="touchUpInside" id="eev-IR-dIO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ij8-hf-qu1">
+                                        <rect key="frame" x="280" y="5" width="44" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <inset key="contentEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                                        <state key="normal" title="胸闷">
+                                            <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="toggleBtn:" destination="BKT-Tl-J61" eventType="touchUpInside" id="8uI-ri-tdC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5tW-Dc-g78">
+                                        <rect key="frame" x="334" y="5" width="44" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <inset key="contentEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                                        <state key="normal" title="头晕">
+                                            <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="toggleBtn:" destination="BKT-Tl-J61" eventType="touchUpInside" id="Jg8-MJ-S3S"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uKT-5Y-mhz">
+                                        <rect key="frame" x="388" y="5" width="44" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <inset key="contentEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                                        <state key="normal" title="恶心">
+                                            <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="toggleBtn:" destination="BKT-Tl-J61" eventType="touchUpInside" id="N7n-Qv-knC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GvQ-1a-OgA">
+                                        <rect key="frame" x="442" y="5" width="44" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <inset key="contentEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                                        <state key="normal" title="冷汗">
+                                            <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="toggleBtn:" destination="BKT-Tl-J61" eventType="touchUpInside" id="m02-kN-WMZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Xb-5d-qMZ">
+                                        <rect key="frame" x="496" y="5" width="44" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <inset key="contentEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                                        <state key="normal" title="其他">
+                                            <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="toggleBtn:" destination="BKT-Tl-J61" eventType="touchUpInside" id="0Fd-rn-ZdE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="GvQ-1a-OgA" firstAttribute="leading" secondItem="uKT-5Y-mhz" secondAttribute="trailing" constant="10" id="1sl-eF-hor"/>
+                                    <constraint firstItem="Ij8-hf-qu1" firstAttribute="leading" secondItem="mgF-FI-8F0" secondAttribute="trailing" constant="10" id="80y-Ed-8LF"/>
+                                    <constraint firstAttribute="centerY" secondItem="uKT-5Y-mhz" secondAttribute="centerY" id="8el-ue-XhR"/>
+                                    <constraint firstItem="5tW-Dc-g78" firstAttribute="leading" secondItem="Ij8-hf-qu1" secondAttribute="trailing" constant="10" id="8vB-XF-ffB"/>
+                                    <constraint firstAttribute="centerY" secondItem="mgF-FI-8F0" secondAttribute="centerY" id="9IO-eo-qMY"/>
+                                    <constraint firstAttribute="centerY" secondItem="GvQ-1a-OgA" secondAttribute="centerY" id="CVp-Ag-wGT"/>
+                                    <constraint firstAttribute="centerY" secondItem="XoG-5v-3l7" secondAttribute="centerY" id="DVc-Dk-2i7"/>
+                                    <constraint firstItem="XoG-5v-3l7" firstAttribute="leading" secondItem="5iO-q3-HSr" secondAttribute="trailing" constant="10" id="JBM-fv-dOo"/>
+                                    <constraint firstAttribute="height" constant="43" id="JiP-C4-7Td"/>
+                                    <constraint firstAttribute="width" constant="550" id="NSU-oH-LM1"/>
+                                    <constraint firstItem="5iO-q3-HSr" firstAttribute="leading" secondItem="6k6-CJ-tZs" secondAttribute="trailing" constant="10" id="Npo-eG-ahO"/>
+                                    <constraint firstAttribute="centerY" secondItem="5iO-q3-HSr" secondAttribute="centerY" id="Tfh-cI-g2U"/>
+                                    <constraint firstItem="T8p-YM-bEq" firstAttribute="leading" secondItem="XoG-5v-3l7" secondAttribute="trailing" constant="10" id="Vtm-fX-Yny"/>
+                                    <constraint firstItem="uKT-5Y-mhz" firstAttribute="leading" secondItem="5tW-Dc-g78" secondAttribute="trailing" constant="10" id="ZEF-UZ-AZH"/>
+                                    <constraint firstItem="7Xb-5d-qMZ" firstAttribute="leading" secondItem="GvQ-1a-OgA" secondAttribute="trailing" constant="10" id="c9A-Mn-Nyo"/>
+                                    <constraint firstAttribute="centerY" secondItem="Ij8-hf-qu1" secondAttribute="centerY" id="g5c-S4-dmk"/>
+                                    <constraint firstItem="mgF-FI-8F0" firstAttribute="leading" secondItem="T8p-YM-bEq" secondAttribute="trailing" constant="10" id="hV8-ej-P6r"/>
+                                    <constraint firstAttribute="centerY" secondItem="5tW-Dc-g78" secondAttribute="centerY" id="k0L-em-RBG"/>
+                                    <constraint firstAttribute="centerY" secondItem="7Xb-5d-qMZ" secondAttribute="centerY" id="rdL-tj-LtN"/>
+                                    <constraint firstAttribute="centerY" secondItem="6k6-CJ-tZs" secondAttribute="centerY" id="tJ7-Na-fKJ"/>
+                                    <constraint firstItem="6k6-CJ-tZs" firstAttribute="leading" secondItem="DtF-29-Fzk" secondAttribute="leading" constant="10" id="wcR-QF-bTB"/>
+                                    <constraint firstAttribute="centerY" secondItem="T8p-YM-bEq" secondAttribute="centerY" id="z5c-kp-l8I"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="DtF-29-Fzk" secondAttribute="bottom" id="7h7-lh-WI1"/>
+                            <constraint firstAttribute="trailing" secondItem="DtF-29-Fzk" secondAttribute="trailing" id="c4V-wj-JQ0"/>
+                            <constraint firstItem="DtF-29-Fzk" firstAttribute="top" secondItem="rza-7G-Dzu" secondAttribute="top" id="s5d-ii-Ob6"/>
+                            <constraint firstItem="DtF-29-Fzk" firstAttribute="leading" secondItem="rza-7G-Dzu" secondAttribute="leading" id="scr-D2-f3W"/>
+                        </constraints>
+                    </scrollView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="rza-7G-Dzu" firstAttribute="top" secondItem="cmm-cr-nSk" secondAttribute="top" id="5aR-1a-EIy"/>
+                    <constraint firstAttribute="centerY" secondItem="cTZ-MD-JuK" secondAttribute="centerY" id="5ut-4V-LlM"/>
+                    <constraint firstItem="cTZ-MD-JuK" firstAttribute="leading" secondItem="cmm-cr-nSk" secondAttribute="leading" constant="20" id="Ams-4y-wld"/>
+                    <constraint firstAttribute="trailing" secondItem="rza-7G-Dzu" secondAttribute="trailing" id="DB1-Di-Cra"/>
+                    <constraint firstItem="rza-7G-Dzu" firstAttribute="bottom" secondItem="cmm-cr-nSk" secondAttribute="bottom" id="eqn-pn-GqM"/>
+                    <constraint firstItem="rza-7G-Dzu" firstAttribute="leading" secondItem="cTZ-MD-JuK" secondAttribute="trailing" constant="10" id="klR-j0-bWP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="containerView" destination="DtF-29-Fzk" id="maf-nd-BlG"/>
+                <outlet property="title" destination="cTZ-MD-JuK" id="Onb-vR-PyA"/>
+            </connections>
+            <point key="canvasLocation" x="147" y="235"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6249" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DetectCell" id="IAo-0v-qkz" customClass="DetectCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IAo-0v-qkz" id="7K2-Qx-J2f">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z4E-e3-X9R">
+                        <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GiV-Nd-vlH" customClass="LogTextField">
+                                <rect key="frame" x="0.0" y="0.0" width="96" height="43"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RJG-P6-qBo" customClass="LogTextField">
+                                <rect key="frame" x="98" y="0.0" width="96" height="43"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0VF-1a-ZTP" customClass="LogTextField">
+                                <rect key="frame" x="196" y="0.0" width="96" height="43"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RJG-P6-qBo" firstAttribute="leading" secondItem="GiV-Nd-vlH" secondAttribute="trailing" constant="2" id="0oE-g7-Zf7"/>
+                            <constraint firstItem="GiV-Nd-vlH" firstAttribute="width" secondItem="z4E-e3-X9R" secondAttribute="width" multiplier="0.33" id="5OU-rH-DUL"/>
+                            <constraint firstAttribute="bottom" secondItem="RJG-P6-qBo" secondAttribute="bottom" id="6M4-wr-y5Y"/>
+                            <constraint firstItem="GiV-Nd-vlH" firstAttribute="leading" secondItem="z4E-e3-X9R" secondAttribute="leading" id="C0C-0e-DV3"/>
+                            <constraint firstItem="0VF-1a-ZTP" firstAttribute="leading" secondItem="RJG-P6-qBo" secondAttribute="trailing" constant="2" id="NFU-4s-LJN"/>
+                            <constraint firstItem="RJG-P6-qBo" firstAttribute="top" secondItem="z4E-e3-X9R" secondAttribute="top" id="UgT-Kc-n13"/>
+                            <constraint firstItem="GiV-Nd-vlH" firstAttribute="width" secondItem="RJG-P6-qBo" secondAttribute="width" id="V5K-1d-n14"/>
+                            <constraint firstItem="0VF-1a-ZTP" firstAttribute="width" secondItem="RJG-P6-qBo" secondAttribute="width" id="g9g-hN-l7d"/>
+                            <constraint firstAttribute="bottom" secondItem="GiV-Nd-vlH" secondAttribute="bottom" id="h17-5e-AcB"/>
+                            <constraint firstItem="0VF-1a-ZTP" firstAttribute="top" secondItem="z4E-e3-X9R" secondAttribute="top" id="mNs-hp-X8Z"/>
+                            <constraint firstItem="GiV-Nd-vlH" firstAttribute="top" secondItem="z4E-e3-X9R" secondAttribute="top" id="mhB-Xb-KmY"/>
+                            <constraint firstAttribute="bottom" secondItem="0VF-1a-ZTP" secondAttribute="bottom" id="zZH-jb-aWN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="z4E-e3-X9R" firstAttribute="top" secondItem="7K2-Qx-J2f" secondAttribute="top" id="28g-tr-YHP"/>
+                    <constraint firstItem="z4E-e3-X9R" firstAttribute="leading" secondItem="7K2-Qx-J2f" secondAttribute="leading" constant="15" id="6L2-1U-fTD"/>
+                    <constraint firstAttribute="bottom" secondItem="z4E-e3-X9R" secondAttribute="bottom" id="Ift-Bz-Ha2"/>
+                    <constraint firstAttribute="trailing" secondItem="z4E-e3-X9R" secondAttribute="trailing" constant="15" id="Iki-rZ-z8m"/>
+                </constraints>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+            <connections>
+                <outlet property="detectField" destination="RJG-P6-qBo" id="n5k-HE-Xtf"/>
+                <outlet property="detectType" destination="GiV-Nd-vlH" id="HdZ-Qr-LGV"/>
+                <outlet property="detectUnit" destination="0VF-1a-ZTP" id="60D-4L-I25"/>
+            </connections>
+            <point key="canvasLocation" x="261" y="265"/>
+        </tableViewCell>
+    </objects>
+</document>

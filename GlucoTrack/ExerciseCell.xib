@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6249" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ExerciseCell" id="OiE-wi-REc" customClass="ExerciseCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OiE-wi-REc" id="weo-Hn-Tio">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I7B-7w-lX1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="eWX-hK-5jj" customClass="LogTextField">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="43"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Qd1-no-xP5" customClass="LogTextField">
+                                <rect key="frame" x="80" y="0.0" width="80" height="43"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="uKq-bX-eVT" customClass="LogTextField">
+                                <rect key="frame" x="160" y="0.0" width="80" height="43"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="9QU-NF-T1W" customClass="LogTextField">
+                                <rect key="frame" x="240" y="0.0" width="80" height="43"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Qd1-no-xP5" secondAttribute="bottom" id="5n3-F2-k77"/>
+                            <constraint firstItem="eWX-hK-5jj" firstAttribute="leading" secondItem="I7B-7w-lX1" secondAttribute="leading" id="FKK-TO-hPx"/>
+                            <constraint firstAttribute="bottom" secondItem="9QU-NF-T1W" secondAttribute="bottom" id="GZW-HR-JZB"/>
+                            <constraint firstAttribute="bottom" secondItem="uKq-bX-eVT" secondAttribute="bottom" id="I0Z-b5-bQb"/>
+                            <constraint firstItem="9QU-NF-T1W" firstAttribute="leading" secondItem="uKq-bX-eVT" secondAttribute="trailing" id="Ipy-OZ-Mrj"/>
+                            <constraint firstItem="eWX-hK-5jj" firstAttribute="top" secondItem="I7B-7w-lX1" secondAttribute="top" id="IxG-Op-u1c"/>
+                            <constraint firstItem="uKq-bX-eVT" firstAttribute="leading" secondItem="Qd1-no-xP5" secondAttribute="trailing" id="JAX-O0-p2n"/>
+                            <constraint firstItem="uKq-bX-eVT" firstAttribute="top" secondItem="I7B-7w-lX1" secondAttribute="top" id="JNy-FI-Wkq"/>
+                            <constraint firstItem="9QU-NF-T1W" firstAttribute="top" secondItem="I7B-7w-lX1" secondAttribute="top" id="O43-BC-m5j"/>
+                            <constraint firstItem="Qd1-no-xP5" firstAttribute="width" secondItem="eWX-hK-5jj" secondAttribute="width" id="OMZ-ep-gYe"/>
+                            <constraint firstItem="Qd1-no-xP5" firstAttribute="leading" secondItem="eWX-hK-5jj" secondAttribute="trailing" id="PcA-g4-Xuh"/>
+                            <constraint firstAttribute="bottom" secondItem="eWX-hK-5jj" secondAttribute="bottom" id="WPj-tl-nBL"/>
+                            <constraint firstItem="Qd1-no-xP5" firstAttribute="width" secondItem="uKq-bX-eVT" secondAttribute="width" id="aMV-li-UL6"/>
+                            <constraint firstItem="Qd1-no-xP5" firstAttribute="top" secondItem="I7B-7w-lX1" secondAttribute="top" id="axe-ZL-vkf"/>
+                            <constraint firstItem="9QU-NF-T1W" firstAttribute="width" secondItem="uKq-bX-eVT" secondAttribute="width" id="f26-NZ-J9O"/>
+                            <constraint firstItem="eWX-hK-5jj" firstAttribute="width" secondItem="I7B-7w-lX1" secondAttribute="width" multiplier="0.25" id="f5u-D4-srX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="I7B-7w-lX1" firstAttribute="top" secondItem="weo-Hn-Tio" secondAttribute="top" id="2zL-lv-AKg"/>
+                    <constraint firstItem="I7B-7w-lX1" firstAttribute="leading" secondItem="weo-Hn-Tio" secondAttribute="leading" id="84B-wE-WiQ"/>
+                    <constraint firstAttribute="bottom" secondItem="I7B-7w-lX1" secondAttribute="bottom" id="M7p-Ge-WrQ"/>
+                    <constraint firstAttribute="trailing" secondItem="I7B-7w-lX1" secondAttribute="trailing" id="QQa-h0-7Um"/>
+                </constraints>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+            <connections>
+                <outlet property="calorie" destination="9QU-NF-T1W" id="YWs-og-CG5"/>
+                <outlet property="exerciseName" destination="eWX-hK-5jj" id="aDd-kG-LA8"/>
+                <outlet property="time" destination="Qd1-no-xP5" id="59c-bD-mO9"/>
+                <outlet property="unit" destination="uKq-bX-eVT" id="16p-fQ-Nnb"/>
+            </connections>
+            <point key="canvasLocation" x="261" y="265"/>
+        </tableViewCell>
+    </objects>
+</document>

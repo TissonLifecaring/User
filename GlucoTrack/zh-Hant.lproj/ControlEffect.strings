@@ -1,0 +1,45 @@
+
+/* Class = "IBUIBarButtonItem"; title = "Menu"; ObjectID = "2h3-ZQ-m4r"; */
+"2h3-ZQ-m4r.title" = "菜單";
+
+/* Class = "IBUILabel"; text = "Average Value"; ObjectID = "8lX-zi-qRZ"; */
+"8lX-zi-qRZ.text" = "平均值";
+
+/* Class = "IBUILabel"; text = "FBG"; ObjectID = "AVw-6I-Ezv"; */
+"AVw-6I-Ezv.text" = "FBG";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "CaH-Ma-Ald"; */
+"CaH-Ma-Ald.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "Curative Effect Evaluation"; ObjectID = "KXh-xV-C8f"; */
+"KXh-xV-C8f.text" = "綜合療效評估";
+
+/* Class = "IBUILabel"; text = "Exceeding times"; ObjectID = "Lr9-Nb-mXX"; */
+"Lr9-Nb-mXX.text" = "超標次數";
+
+/* Class = "IBUILabel"; text = "Minimum Value"; ObjectID = "MkZ-Ym-rE1"; */
+"MkZ-Ym-rE1.text" = "最小值";
+
+/* Class = "IBUILabel"; text = "Choose Period"; ObjectID = "Qzc-3f-6A6"; */
+"Qzc-3f-6A6.text" = "選擇週期";
+
+/* Class = "IBUIButton"; normalTitle = "取消"; ObjectID = "SZX-0r-5dX"; */
+"SZX-0r-5dX.normalTitle" = "取消";
+
+/* Class = "IBUINavigationItem"; title = "Control Effect"; ObjectID = "UNq-hE-XFk"; */
+"UNq-hE-XFk.title" = "控糖成效";
+
+/* Class = "IBUIButton"; normalTitle = "确定"; ObjectID = "Xav-kw-STo"; */
+"Xav-kw-STo.normalTitle" = "確定";
+
+/* Class = "IBUILabel"; text = "Maximum Value"; ObjectID = "tm3-Tm-z7b"; */
+"tm3-Tm-z7b.text" = "最大值";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "u4a-mM-Qqr"; */
+"u4a-mM-Qqr.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Test times"; ObjectID = "zOt-Ca-LLg"; */
+"zOt-Ca-LLg.text" = "檢測次數";
+
+/* Class = "IBUIBarButtonItem"; title = "Share"; ObjectID = "vpv-U8-wBQ"; */
+"vpv-U8-wBQ.title" = "分享";

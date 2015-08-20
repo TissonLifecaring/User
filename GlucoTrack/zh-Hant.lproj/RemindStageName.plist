@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>半夜</string>
+	<string>清晨</string>
+	<string>早餐前</string>
+	<string>早餐後半小時</string>
+	<string>早餐後1小時</string>
+	<string>早餐後2小時</string>
+	<string>早餐後3小時</string>
+	<string>午餐前</string>
+	<string>午餐後半小時</string>
+	<string>午餐後1小時</string>
+	<string>午餐後2小時</string>
+	<string>午餐後3小時</string>
+	<string>晚餐前</string>
+	<string>晚餐前半小時</string>
+	<string>晚餐後1小時</string>
+	<string>晚餐後2小時</string>
+	<string>晚餐後3小時</string>
+	<string>睡覺前</string>
+</array>
+</plist>

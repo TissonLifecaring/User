@@ -1,0 +1,349 @@
+/*
+ Localizable.strings
+ SugarNursing
+ 
+ Created by Dan on 14-11-5.
+ Copyright (c) 2014年 Tisson. All rights reserved.
+ */
+
+"GlucoTrack" = "糖無忌";
+
+"glucose" = "血糖";
+"hemoglobin" = "糖化血红蛋白";
+
+/* Network */
+"Request Error" = "請求出錯";
+
+/* Notification */
+"Accept" = "查看";
+"Reject" = "忽略";
+
+/* Basic */
+"New Version" = "發現新版本";
+"Skip" = "忽略";
+"Go" = "前往";
+
+"No Data" = "沒有數據";
+
+/* SSPullToRefreshView */
+"Pull down to refresh…" = "下拉刷新…";
+"Release to refresh…" = "釋放刷新…";
+"Loading…" = "加載中…";
+"Last Updated: %@" = "上次更新: %@";
+
+
+/* HUD */
+"Login.." = "登陸中..";
+"Logout.." = "註銷中..";
+"Error" = "錯誤";
+"Dismiss" = "取消";
+"Loading..." = "加載中...";
+"Server is busy" = "網絡繁忙";
+
+
+/* Left Menu */
+"Advise" = "醫生建議";
+"Test Result" = "檢測數據";
+"Control Effect" = "控糖成效";
+"Recovery Log" = "康復日誌";
+"My Tips" = "我的提醒";
+"Member Center" = "個人中心";
+"Service Center" = "我的客服";
+"Log Out" = "退出登陸";
+"Consult Expert" = "醫生諮詢";
+
+/* Login And Register */
+"Register" = "手機註冊";
+"Registering..." = "註冊中...";
+"Register succeed" = "註冊成功，请登陸";
+"Resetting..." = "重置密碼中...";
+"Reset" = "重設密碼";
+"Reset succeed" = "重設成功，請重新登錄";
+"hongkong" = "香港";
+
+
+"notice"="提示";
+"errorphonenumber"="手機號碼非法，請重新填寫";
+"sure"="確定";
+
+"willsendthecodeto"="我們將發送驗證碼到這個號碼";
+"surephonenumber"="確認手機號碼";
+"cancel"="取消";
+"Sending code" = "發送驗證碼";
+"User Exists" = "用戶已註冊";
+"User No Exists" = "用戶不存在";
+"Sending code succeed" = "驗證碼發送成功";
+
+
+"codesenderrormsg"="驗證碼發送失敗 請稍後重試";
+"codesenderrtitle"="發送失敗";
+
+"maxcodemsg"="請求驗證碼上限 請稍後再試";
+"maxcode"="超過上限";
+
+"countrychoose"="選擇國家或地區";
+"choosegender"="選擇性別";
+"female"="女";
+"male"="男";
+"Format is not avaliable" = "格式填寫不正確";
+"Date Format is not avaliable" = "不能選擇今天之後的日期";
+"Futhure Date Format is not avaliable" = "不能選擇今天之前的日期";
+"Password Format is not avaliable" = "密碼不能少於6位數";
+"UserName Format is not avaliable" = "用戶名不能包含中文字符";
+"UserName cannot be empty" = "用戶名不能為空";
+"Not your mobile phone" = "這不是您的手機號碼";
+"You are not the current user" = "這不是您的賬號";
+"Phone number is not valid" = "手機號碼無效";
+"Mobile phone is rebinded" = "手機號碼已被綁定，請重新輸入";
+"Input the code you received" = "输入获取到验证码";
+"s" = "秒";
+"Code cannot be empty" = "驗證碼不能為空";
+
+
+
+/* Test Tracker */
+"Cancel" = "取消";
+"Select Time Span" = "選擇時間跨度";
+
+"Select By Day" = "按日查詢";
+"Select By Three Days" = "近三天";
+"Select By Week" = "近一週";
+"Select By Two Weeks" = "近兩週";
+"Select By Month" = "近一個月";
+"Select By Two Months" = "近兩個月";
+"Select By Three Months" = "近三個月";
+
+
+"Three Days" = "近三天";
+"A Week" = "近一週";
+"Two Weeks" = "近兩週";
+"A Month" = "近一個月";
+"Two Months" = "近兩個月";
+"Three Months" = "近三個月";
+
+
+"Nearest 7 days" = "近7天";
+"Nearest 14 days" = "近14天";
+"Nearest 30 days" = "近30天";
+"Nearest 60 days" = "近60天";
+
+
+"Table" = "列表";
+"Line" = "圖表";
+"Share" = "分享";
+
+/* Control Effect */
+"Fasting Blood-glucose" = "空腹血糖";
+"Postprandial Blood-glucose After 2 hours" = "餐後2小時血糖";
+"Postprandial Blood-glucose After 1 hours" = "餐後1小時血糖";
+"Glycated hemoglobin" = "糖化血紅蛋白";
+"Select Period" = "選擇週期";
+"Curative Effect Evaluation" = "綜合療效評估";
+"DetectionTime" = "檢測次數";
+"Exceeding Time" = "超標次數";
+"Maximum Value" = "最高值";
+"Minimum Value" = "最低值";
+"Average Value" = "平均值";
+"Cannot get the Evaluation" = "暫時無法獲取控糖成效";
+
+
+"Cannot share without Evaluation" = "控糖成效沒有數據,不能分享";
+"point" = "分";
+
+/* Member Center */
+"Verify your account" = "驗證賬戶";
+"Verifying..." = "驗證中...";
+"Rebinding..." = "重新綁定中...";
+"Rebind Your Mobile"="重新綁定";
+"To Rebind Your Mobile" = "完成綁定";
+"Rebind succeed" = "綁定成功，請重新登錄";
+"Setting"="設置";
+"Personal Information" = "個人信息";
+"Please edit your info" = "請填寫您的資料";
+"Please fill your info" = "您的病例資料";
+"To see more" = "點擊查看詳情";
+"Setting when purchase" = "請購買糖博士由醫生設置";
+"Binding your email in our Home" = "請登陸官方網站綁定郵箱";
+"You can change only once" = "只能修改一次";
+"No avaliable" = "無";
+"Avaliable" = "開通";
+"years old" = "歲";
+"Saving Data" = "保存數據中";
+"Data Updated" = "數據更新成功";
+"Thumbnail uploading" = "正在上傳圖片";
+"Upload succeed" = "上傳成功";
+"Hospital Name" = "確診醫院的名稱";
+"Treatment Condition" = "治療狀況";
+"Treatment Scheme" = "治療方案";
+"Version" = "版本";
+"Leave your feedback." = "請輸入您的反饋信息";
+
+
+
+/* Recovery Log */
+"Custom" = "自定義";
+"Add" = "新增";
+
+/* Medical History */
+"Medical Record" = "既往病史";
+"Please describe your case" = "請簡訴您的病例";
+"Medical Case" = "病例資料";
+"Add Medical Record" = "新增病史";
+"Edit Meical Record" = "編輯病史";
+"Images is more than 10" = "病例圖片不能超過10張";
+
+
+/* About Us */
+"About Us" = "關於我們";
+
+"Terms of service" = "服務條款";
+
+"FeedBack" = "用戶反饋";
+"Sending FeedBack…" = "發送中…";
+"Send Message Succeed" = "發送成功";
+"Send Feedback Succeed" = "反饋成功，感謝您的配合";
+
+/* Add New Recovery Record */
+"others" = "其他設備";
+"detect" = "检测";
+"diet" = "飲食";
+"exercise" = "運動";
+"drug" = "用藥";
+"Add New Recovery Record" = "新增日誌";
+"Edit Recovery Record" = "編輯日誌";
+"calorie" = "大卡";
+"minutes" = "分鐘";
+"Input Detect Value" = "輸入檢測值";
+"breakfast" = "早餐";
+"lunch" = "午餐";
+"dinner" = "晚餐";
+"snack" = "加餐";
+"eat" = "进餐";
+"Not to Add More" = "最多只能添加十條";
+
+"Detection Equipment" = "檢測設備";
+"Detection Date" = "檢測日期";
+"Detection Time" = "檢測時間";
+"Select Date" = "選擇日期";
+"Select Time" = "選擇時間";
+"Add Remark" = "增加備註";
+"Medication Date" = "用藥日期";
+"Medication Time" = "用藥時間";
+"Diet Date" = "飲食日期";
+"Diet Time" = "飲食時間";
+"Diet Category" = "三餐情况";
+"Select Diet Time" = "選擇用餐時間";
+"Exercise Date" = "運動日期";
+"Start Time" = "開始時間";
+"Select Diet Category" = "選擇用餐類型";
+"Enter Medication Name" = "請輸入藥物名稱";
+"Enter Food Name" = "請輸入食物名稱";
+"Enter Exercise Name" = "請輸入運動名稱";
+"Options" = "可選";
+"Value cannot be empty" = "檢測值不能為空";
+"Glucose Value is invalid" = "血糖的值只能在3.5~30";
+"Hemo Value is invalid" = "糖化血红蛋白的值只能在4~30";
+"Medication cannot be empty" = "用藥不能為空";
+"Detection Result" = "檢測結果";
+"Glucose" = "胰島素";
+"Antidiabetic" = "降糖藥";
+"Others" = "其他";
+"Food Intaked" = "攝入食物";
+"Exercise Data" = "運動數據";
+"Feeling" = "自我感覺";
+"Detection Type" = "檢測類型";
+"Detection Value" = "檢測值";
+"Unit" = "單位";
+"Medication Name" = "藥品名稱";
+"Usage" = "用法";
+"Dosage" = "用量";
+"Food Name" = "食物名稱";
+"Intaked Value" = "攝入量";
+"Calorie Intaked" = "攝入卡路里";
+"Enter Name" = "輸入名稱";
+"Enter Time" = "輸入時長";
+"Calorie Outtaked" = "消耗卡路里";
+"Sport Name" = "運動項目";
+"Sport Time" = "時長";
+"Intaked" = "攝入";
+"Start Exercise" = "進行運動";
+"Log" = "記錄";
+
+
+
+"g" = "克";
+"kg" = "千克";
+"mg" = "毫克";
+"grain" = "粒";
+"slice" = "片";
+"unit" = "單位";
+"ml" = "毫升";
+"piece" = "支";
+"bottle" = "瓶";
+"Oral_" = "口服";
+"Oral" = "口服";
+"Insulin" = "胰島素汞";
+"Injection" = "注射";
+
+"Please leave your message." = "請輸入您的問題，至少20個字符";
+
+/* Network Error */
+"Fallback Error Failure Reason Format" = "連接網絡失敗";
+"Cannot find specified host." = "連接網絡失敗";
+"Cannot connect to specified host." = "連接網絡失敗";
+"Cannot connect to the internet." = "連接網絡失敗";
+
+/* User Reminder*/
+"Add Remind" = "增加提醒";
+"Eidt Remind" = "編輯提醒";
+"RecurrenceRule" = "重複週期";
+"Remember to take drugs!" = "請按時服用藥品！";
+"Remember to make a detection" = "請使用糖無忌檢測血糖";
+"Cancel Reminders" = "取消提醒";
+"Add Reminders" = "增加提醒";
+"GluCare--DrugReminder" = "糖無忌--用藥提醒";
+"GluCare--DetectionReminder" = "糖無忌--監控提醒";
+"Sunday" = "週日";
+"Monday" = "週一";
+"Tuesday" = "週二";
+"Wednesday" = "週三";
+"Thursday" = "週四";
+"Friday" = "週五";
+"Saturday" = "週六";
+"Never" = "永不";
+"Not to Add reminder in the same time before" = "同一時間不能增加多條提醒";
+"Not to add more than 10 reminders." = "提醒不能多於十條";
+
+
+
+
+
+"three many" = "three many";
+"Dizzy" = "Dizzy";
+"Normal" = "Normal";
+"Cold sweat" = "Cold sweat";
+"Chest congestion" = "Chest congestion";
+"Abdominal pain" = "Abdominal pain";
+"Weak" = "Weak";
+"Pant" = "Pant";
+"Nausea" = "Nausea";
+
+
+
+"17 times" = "17點法";
+"7 times" = "7點法";
+"5 times" = "5點法";
+"FBG" = "空腹高血糖監測";
+"3 Meals" = "三餐影響檢測";
+"Trregular" = "無症狀檢測";
+"Customize" = "自定義";
+
+
+
+"cannot be earlier than last time" = "不能早於前一個提醒時間";
+"cannot be later than next time" = "不能晚於後一個提醒時間";
+
+
+
+"Please enter medicine name" = "請輸入藥物名稱";
+
